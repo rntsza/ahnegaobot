@@ -11,5 +11,8 @@
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0"
   }
 }
