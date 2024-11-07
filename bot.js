@@ -1,19 +1,24 @@
-require('dotenv').config(); 
+require('dotenv').config();
+
 const Discord = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
 const Parser = require('rss-parser');
 const axios = require('axios');
 const cheerio = require('cheerio');
+const express = require('express');
 const parser = new Parser();
+
 const client = new Discord.Client({ intents: ["Guilds", "GuildMessages", "MessageContent"] });
 const blockGif = 'ajax-loader.gif';
+
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const CHANNEL_ID = process.env.CHANNEL_ID;
 const RSS_FEED_URL = process.env.RSS_FEED_URL;
-const LOOP_INTERVAL = parseInt(process.env.LOOP_INTERVAL, 10);
+const LOOP_INTERVAL = parseInt(process.env.LOOP_INTERVAL, 10) || 600000;
+const PORT = process.env.PORT || 3000;
+
 let lastPostDate = null;
 const postedLinks = new Set();
-// console.log( 'envs', { DISCORD_TOKEN, CHANNEL_ID, RSS_FEED_URL, LOOP_INTERVAL } );
 
 async function fetchMemeContent(url) {
     try {
@@ -72,13 +77,13 @@ async function checkFeed() {
                         await channel.send({ embeds: [embed] });
                         for (const videoUrl of memeContent.videoUrls) {
                             await channel.send(`🎥 Assista ao vídeo: ${videoUrl}`);
-                            await delay(10000);
+                            await delay(30000);
                         }
                     } else if (memeContent.imageUrls.length > 0) {
                         await channel.send({ embeds: [embed] });
                         for (const imageUrl of memeContent.imageUrls) {
                             await channel.send({ content: imageUrl });
-                            await delay(3000);
+                            await delay(10000);
                         }
                     }
 
@@ -101,3 +106,21 @@ client.once('ready', () => {
 });
 
 client.login(DISCORD_TOKEN);
+
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Bot do Discord está ativo e funcionando!');
+});
+
+app.get('/status', (req, res) => {
+    res.json({
+        status: 'Bot está ativo',
+        lastCheck: lastPostDate,
+        totalPosts: postedLinks.size
+    });
+});
+
+app.listen(PORT, () => {
+    console.log(`Servidor web iniciado na porta ${PORT}`);
+});

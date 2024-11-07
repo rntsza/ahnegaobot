@@ -1,13 +1,14 @@
 {
   "scripts": {
-  "start": "node bot.js",
-  "dev": "nodemon bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.22.0",
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
     "discord.js": "^14.16.3",
+    "express": "^4.21.1",
     "rss-parser": "^3.13.0"
   }
 }
