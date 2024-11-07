@@ -1,16 +1,14 @@
 require('dotenv').config();
 
-const Discord = require('discord.js');
-const { EmbedBuilder, REST, Routes } = require('discord.js');
+const { EmbedBuilder, REST, Routes, Client } = require('discord.js');
 const Parser = require('rss-parser');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const express = require('express');
 const fs = require('fs');
 const parser = new Parser();
-
-const client = new Discord.Client({ intents: ["Guilds", "GuildMessages", "MessageContent"] });
-const blockGif = 'ajax-loader.gif';
+const client = new Client({ intents: ["Guilds", "GuildMessages", "MessageContent"] });
+const BLOCK_GIF_FILENAME = 'ajax-loader.gif';
 
 //#region environment variables
 
@@ -46,10 +44,6 @@ function savePostedMemes() {
     fs.writeFileSync('postedMemes.json', JSON.stringify(postedMemes, null, 2));
 }
 
-function savePostedMemes() {
-    fs.writeFileSync('postedMemes.json', JSON.stringify(postedMemes, null, 2));
-}
-
 //#endregion
 
 async function fetchMemeContent(url) {
@@ -62,7 +56,7 @@ async function fetchMemeContent(url) {
         const imageUrls = [];
         $('.entry-content img').each((i, element) => {
             const imageUrl = $(element).attr('src');
-            if (imageUrl && !imageUrl.includes('/wp-content/themes/') && !imageUrl.includes(blockGif)) {
+            if (imageUrl && !imageUrl.includes('/wp-content/themes/') && !imageUrl.includes(BLOCK_GIF_FILENAME)) {
                 imageUrls.push(imageUrl);
             }
         });
@@ -70,11 +64,11 @@ async function fetchMemeContent(url) {
         const videoUrls = [];
         $('.rll-youtube-player').each((i, element) => {
             const videoUrl = $(element).attr('data-src');
-            if (videoUrl && !videoUrl.includes(blockGif)) videoUrls.push(videoUrl);
+            if (videoUrl && !videoUrl.includes(BLOCK_GIF_FILENAME)) videoUrls.push(videoUrl);
         });
         $('iframe').each((i, element) => {
             const videoUrl = $(element).attr('src');
-            if (videoUrl && videoUrl.includes("youtube.com") && !videoUrl.includes(blockGif)) videoUrls.push(videoUrl);
+            if (videoUrl && videoUrl.includes("youtube.com") && !videoUrl.includes(BLOCK_GIF_FILENAME)) videoUrls.push(videoUrl);
         });
 
         return { title, imageUrls, videoUrls };
