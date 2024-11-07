@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "dev": "nodemon bot.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.22.0",
