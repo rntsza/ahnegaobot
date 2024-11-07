@@ -1,6 +1,7 @@
 # Ah Negão Meme Bot
 
 [![Deploy to Production](https://github.com/rntsza/ahnegaobot/actions/workflows/main.yml/badge.svg)](https://github.com/rntsza/ahnegaobot/actions/workflows/main.yml)
+[![Node.js CI](https://github.com/rntsza/ahnegaobot/actions/workflows/nodejs-ci.yml/badge.svg?branch=main)](https://github.com/rntsza/ahnegaobot/actions/workflows/nodejs-ci.yml)
 
 Este projeto é um bot do Discord que publica automaticamente novos memes do site [Ah Negão!](https://www.ahnegao.com.br) em um canal específico do servidor, com suporte a postagens de imagens e vídeos.
 
