@@ -2,12 +2,12 @@ name: Deploy to Render
 
 on:
   push:
-    branches: [webservice]
+    branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: webservice
+    environment: Production
 
     steps:
       - name: Check RENDER_DEPLOY_HOOK availability
