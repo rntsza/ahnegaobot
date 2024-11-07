@@ -10,6 +10,17 @@ jobs:
     environment: webservice
 
     steps:
+      - name: Check RENDER_DEPLOY_HOOK availability
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK" ]; then
+            echo "RENDER_DEPLOY_HOOK is not available"
+            exit 1
+          else
+            echo "RENDER_DEPLOY_HOOK is set"
+          fi
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+      
       - name: Trigger deployment on Render
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
