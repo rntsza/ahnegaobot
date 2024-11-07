@@ -128,6 +128,20 @@ async function checkFeed() {
   }
 }
 
+async function clearGlobalCommands() {
+  const rest = new REST({ version: "10" }).setToken(DISCORD_TOKEN);
+  try {
+    console.log("Limpando comandos globais antigos...");
+    await rest.put(
+      Routes.applicationCommands(CLIENT_ID),
+      { body: [] },
+    );
+    console.log("Comandos globais antigos removidos com sucesso.");
+  } catch (error) {
+    console.error("Erro ao limpar comandos globais:", error);
+  }
+}
+
 async function registerSlashCommands() {
   const commands = [
     {
@@ -149,10 +163,11 @@ async function registerSlashCommands() {
   }
 }
 
-client.once("ready", () => {
+client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
   loadPostedMemes();
-  registerSlashCommands();
+  await clearGlobalCommands();
+  await registerSlashCommands();
   setInterval(checkFeed, LOOP_INTERVAL);
 });
 
