@@ -77,13 +77,13 @@ async function checkFeed() {
                         await channel.send({ embeds: [embed] });
                         for (const videoUrl of memeContent.videoUrls) {
                             await channel.send(`🎥 Assista ao vídeo: ${videoUrl}`);
-                            await delay(30000);
+                            await delay(50000);
                         }
                     } else if (memeContent.imageUrls.length > 0) {
                         await channel.send({ embeds: [embed] });
                         for (const imageUrl of memeContent.imageUrls) {
                             await channel.send({ content: imageUrl });
-                            await delay(10000);
+                            await delay(1000);
                         }
                     }
 
