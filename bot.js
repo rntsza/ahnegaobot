@@ -30,7 +30,9 @@ function loadPostedMemes() {
   if (fs.existsSync("postedMemes.json")) {
     const data = fs.readFileSync("postedMemes.json", "utf-8");
     try {
-      postedMemes = JSON.parse(data) || [];
+      const { memes, lastDate } = JSON.parse(data) || { memes: [], lastDate: null };
+      postedMemes = memes;
+      lastPostDate = lastDate ? new Date(lastDate) : null;
     } catch (error) {
       console.error("Erro ao carregar postedMemes.json:", error);
       postedMemes = [];
@@ -41,7 +43,11 @@ function loadPostedMemes() {
 }
 
 function savePostedMemes() {
-  fs.writeFileSync("postedMemes.json", JSON.stringify(postedMemes, null, 2));
+  const data = {
+    memes: postedMemes,
+    lastDate: lastPostDate ? lastPostDate.toISOString() : null,
+  };
+  fs.writeFileSync("postedMemes.json", JSON.stringify(data, null, 2));
 }
 
 //#endregion
@@ -115,6 +121,7 @@ async function checkFeed() {
           }
 
           postedMemes.push({ guid: uniqueId, link: entry.link });
+          lastPostDate = new Date(entry.pubDate);
           savePostedMemes();
         } else {
           await channel.send(`Novo meme: ${entry.title}\n${entry.link}`);
@@ -123,8 +130,9 @@ async function checkFeed() {
     }
   }
 
-  if (feed.items.length > 0) {
+  if (feed.items.length > 0 && !lastPostDate) {
     lastPostDate = new Date(feed.items[0].pubDate);
+    savePostedMemes();
   }
 }
 
