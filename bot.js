@@ -5,9 +5,11 @@ const Parser = require("rss-parser");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const express = require("express");
-const fs = require("fs");
+const { PrismaClient } = require("@prisma/client");
+
 const parser = new Parser();
 const client = new Client({ intents: ["Guilds", "GuildMessages", "MessageContent"] });
+const prisma = new PrismaClient();
 const BLOCK_GIF_FILENAME = "ajax-loader.gif";
 
 //#region environment variables
@@ -22,32 +24,31 @@ const PORT = process.env.PORT || 3000;
 //#endregion
 
 let lastPostDate = null;
-let postedMemes = [];
 
-//#region json file load and save
+//#region Database functions
 
-function loadPostedMemes() {
-  if (fs.existsSync("postedMemes.json")) {
-    const data = fs.readFileSync("postedMemes.json", "utf-8");
-    try {
-      const { memes, lastDate } = JSON.parse(data) || { memes: [], lastDate: null };
-      postedMemes = memes;
-      lastPostDate = lastDate ? new Date(lastDate) : null;
-    } catch (error) {
-      console.error("Erro ao carregar postedMemes.json:", error);
-      postedMemes = [];
-    }
-  } else {
-    postedMemes = [];
-  }
+async function initializeDatabase() {
+  await prisma.$connect();
+  console.log("Conectado ao banco de dados com Prisma.");
 }
 
-function savePostedMemes() {
-  const data = {
-    memes: postedMemes,
-    lastDate: lastPostDate ? lastPostDate.toISOString() : null,
-  };
-  fs.writeFileSync("postedMemes.json", JSON.stringify(data, null, 2));
+async function loadPostedMemes() {
+  const memes = await prisma.postedMeme.findMany({
+    orderBy: { postedAt: "desc" },
+  });
+  if (memes.length > 0) {
+    lastPostDate = memes[0].postedAt;
+  }
+  return memes;
+}
+
+async function savePostedMeme(guid, link) {
+  await prisma.postedMeme.create({
+    data: {
+      guid,
+      link,
+    },
+  });
 }
 
 //#endregion
@@ -91,6 +92,7 @@ function delay(ms) {
 
 async function checkFeed() {
   const feed = await parser.parseURL(RSS_FEED_URL);
+  const postedMemes = await loadPostedMemes();
 
   for (let entry of feed.items.reverse()) {
     const uniqueId = entry.guid || entry.link;
@@ -120,19 +122,13 @@ async function checkFeed() {
             }
           }
 
-          postedMemes.push({ guid: uniqueId, link: entry.link });
+          await savePostedMeme(uniqueId, entry.link);
           lastPostDate = new Date(entry.pubDate);
-          savePostedMemes();
         } else {
           await channel.send(`Novo meme: ${entry.title}\n${entry.link}`);
         }
       }
     }
-  }
-
-  if (feed.items.length > 0 && !lastPostDate) {
-    lastPostDate = new Date(feed.items[0].pubDate);
-    savePostedMemes();
   }
 }
 
@@ -173,7 +169,7 @@ async function registerSlashCommands() {
 
 client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
-  loadPostedMemes();
+  await initializeDatabase();
   await clearGlobalCommands();
   await registerSlashCommands();
   setInterval(checkFeed, LOOP_INTERVAL);
@@ -189,7 +185,7 @@ client.on("interactionCreate", async interaction => {
       .setTitle("Status do Bot")
       .addFields(
         { name: "Última verificação do feed", value: lastPostDate ? lastPostDate.toLocaleString() : "Ainda não foi verificado", inline: true },
-        { name: "Total de postagens enviadas", value: `${postedMemes.length}`, inline: true },
+        { name: "Total de postagens enviadas", value: `${await prisma.postedMeme.count()}`, inline: true },
       )
       .setFooter({ text: "Bot do Ah Negão!" })
       .setTimestamp();
@@ -206,15 +202,16 @@ app.get("/", (req, res) => {
   res.send("Bot do Discord está ativo e funcionando!");
 });
 
-app.get("/status", (req, res) => {
+app.get("/status", async (req, res) => {
   res.json({
     status: "Bot está ativo",
     lastCheck: lastPostDate,
-    totalPosts: postedMemes.length,
+    totalPosts: await prisma.postedMeme.count(),
   });
 });
 
-app.get("/posted-memes", (req, res) => {
+app.get("/posted-memes", async (req, res) => {
+  const postedMemes = await prisma.postedMeme.findMany();
   res.json(postedMemes);
 });
 

@@ -2,15 +2,22 @@
   "scripts": {
     "start": "node bot.js",
     "dev": "nodemon bot.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "seed": "node prisma/seed.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.22.0",
+    "@prisma/client": "^5.22.0",
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
     "discord.js": "^14.16.3",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
+    "pg": "^8.13.1",
+    "prisma": "^5.22.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
