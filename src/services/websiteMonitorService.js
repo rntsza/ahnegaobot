@@ -51,8 +51,8 @@ async function processMessage(parsedMessage) {
     let regex1 = "";
     let regex2 = "";
     if (note && note.includes("inhabited")) {
-      regex1 = "bom|solar|hum|nim|cul|lun|osts|ndea|ske|itc";
-      regex2 = "oa|emons";
+      regex1 = `"bom|solar|hum|nim|cul|lun|osts|ndea|ske|itc"`;
+      regex2 = `"oa|emons"`;
     }
 
     if (hasTumblingWealth) {
