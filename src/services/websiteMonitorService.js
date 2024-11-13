@@ -1,5 +1,6 @@
 const WebSocket = require("ws");
 const client = require("../config/discordClient");
+const Sentry = require("@sentry/node");
 
 const CHANNEL_TIGRINHO_ID = process.env.CHANNEL_TIGRINHO_ID;
 const ROLE_TIGRINHO_ID = process.env.ROLE_TIGRINHO_ID;
@@ -10,9 +11,9 @@ let tumblingWealthVoteCount = 0;
 let positiveVotes = 0;
 let negativeVotes = 0;
 let notifiedFor20Divine = false;
-
 let lastNotificationTime = 0;
-const NOTIFICATION_INTERVAL = 5 * 60 * 1000;
+const NOTIFICATION_INTERVAL = 10 * 60 * 1000;
+
 async function sendNotification(channel, content, files) {
   const now = Date.now();
   if (now - lastNotificationTime >= NOTIFICATION_INTERVAL) {
@@ -22,7 +23,6 @@ async function sendNotification(channel, content, files) {
     console.log("Notificação ignorada devido ao intervalo mínimo.");
   }
 }
-
 
 function resetCounters() {
   divineVoteCount = 0;
@@ -36,10 +36,11 @@ function resetCounters() {
 setInterval(resetCounters, 60 * 60 * 1000);
 
 async function processMessage(parsedMessage) {
-  const { id, divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
+  const { divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
 
   const hasTumblingWealth = note && note.includes("tumbling wealth");
-  const hasHighDivineValue = divineValue && divineValue > 10;
+  const hasHighDivineValue = divineValue && divineValue >= 20;
+  console.log("Valores recebidos: ", divineValue, chaosValue, exaltedValue, negativeValue, note);
 
   const channel = client.channels.cache.get(CHANNEL_TIGRINHO_ID);
 
@@ -64,6 +65,9 @@ async function processMessage(parsedMessage) {
       positiveVotes += divineValue;
       negativeVotes += negativeValue;
     }
+    
+    console.log("Contadores: ", divineVoteCount, tumblingWealthVoteCount, positiveVotes, negativeVotes);
+    console.log("Notificações: ", notifiedFor20Divine, tumblingWealthVoteCount, divineVoteCount, hasHighDivineValue, hasTumblingWealth);
 
     if (divineVoteCount >= 20 && !notifiedFor20Divine) {
       await sendNotification(
@@ -75,26 +79,36 @@ async function processMessage(parsedMessage) {
     }
 
     if (tumblingWealthVoteCount > 0 && tumblingWealthVoteCount % 100 === 0) {
-      await channel.send({
-        content: `A palavra "tumbling wealth" foi detectada ${tumblingWealthVoteCount} vezes no mapa! 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        files: [chaosOrbImageUrl],
-      });
+      await sendNotification(
+        channel,
+        `A palavra "tumbling wealth" foi detectada ${tumblingWealthVoteCount} vezes no mapa! 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [chaosOrbImageUrl]
+      );
     }
 
     if (divineVoteCount > 0 && divineVoteCount % 100 === 0) {
-      await channel.send({
-        content: `Mais de ${divineVoteCount} votos para Divine Orbs detectados no mapa! 🔥 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        files: [divineOrbImageUrl],
-      });
+      await sendNotification(
+        channel,
+        `Mais de ${divineVoteCount} votos para Divine Orbs detectados no mapa! 🔥 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [divineOrbImageUrl]
+      );
     }
 
     if (tumblingWealthVoteCount >= 300 || divineVoteCount >= 300) {
-      await channel.send({
-        content: `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount}, Divine Orbs: ${divineVoteCount} 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        files: hasTumblingWealth ? [chaosOrbImageUrl] : [divineOrbImageUrl],
-      });
-
+      await sendNotification(
+        channel,
+        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount}, Divine Orbs: ${divineVoteCount} 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        hasTumblingWealth ? [chaosOrbImageUrl] : [divineOrbImageUrl]
+      );
       resetCounters();
+    }
+
+    if (divineValue > negativeValue / 2) {
+      await sendNotification(
+        channel,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nTumbling Wealth: ${tumblingWealthVoteCount} \n👍: ${positiveVotes}, \n💩: ${negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        [divineOrbImageUrl]
+      );
     }
   } else {
     console.error("Canal do Discord não encontrado.");
@@ -132,4 +146,4 @@ async function monitorWebSocket() {
   });
 }
 
-module.exports = { monitorWebSocket, processMessage };
+module.exports = monitorWebSocket;

@@ -13,6 +13,7 @@ const commandService = new CommandService(client);
 client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
   await commandService.registerSlashCommands();
+  await monitorWebsite();
 });
 
 client.on("interactionCreate", (interaction) => commandService.executeCommand(interaction));

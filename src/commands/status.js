@@ -5,6 +5,8 @@ module.exports = {
   name: "status",
   description: "Mostra o status atual do bot",
   async execute(interaction) {
+    await interaction.deferReply();
+    
     const totalPosts = await prisma.postedMeme.count();
     const statusEmbed = new EmbedBuilder()
       .setTitle("Status do Bot")
