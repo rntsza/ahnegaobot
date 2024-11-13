@@ -41,7 +41,39 @@ function resetCounters() {
   console.log("Logando contadores resetados.");
 }
 
-setInterval(resetCounters, 60 * 60 * 1000);
+function scheduleReset() {
+  const now = new Date();
+  const nextHour = new Date(now);
+  
+  nextHour.setHours(now.getHours() + 1, 0, 0, 0);
+  const delay = nextHour - now;
+
+  setTimeout(() => {
+    resetCounters();
+    setInterval(resetCounters, 60 * 60 * 1000);
+  }, delay);
+}
+
+const mapCounters = {};
+
+function resetMapCounters(mapId) {
+  mapCounters[mapId] = {
+    divineVoteCount: 0,
+    tumblingWealthVoteCount: 0,
+    positiveVotes: 0,
+    negativeVotes: 0,
+    notifiedFor20Divine: false
+  };
+}
+
+function getMapCounter(mapId) {
+  if (!mapCounters[mapId]) {
+    resetMapCounters(mapId);
+  }
+  return mapCounters[mapId];
+}
+
+scheduleReset();
 
 async function processMessage(parsedMessage) {
   const { id, divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
@@ -49,6 +81,7 @@ async function processMessage(parsedMessage) {
   const mapData = getMapData(id);
   const { nomeMapa, urlImagem } = mapData;
 
+  const counters = getMapCounter(id);
   const hasTumblingWealth = note && note.includes("tumbling wealth");
   const hasHighDivineValue = divineValue && divineValue >= 20;
   console.log("Valores recebidos: ", divineValue, chaosValue, exaltedValue, negativeValue, note);
@@ -77,44 +110,44 @@ async function processMessage(parsedMessage) {
     console.log("Contadores: ", divineVoteCount, tumblingWealthVoteCount, positiveVotes, negativeVotes);
     console.log("Notificações: ", notifiedFor20Divine, tumblingWealthVoteCount, divineVoteCount, hasHighDivineValue, hasTumblingWealth);
 
-    if (divineVoteCount >= 20 && !notifiedFor20Divine) {
+    if (divineVoteCount >= 20 && !notifiedFor20Divine && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 Contagem: ${divineVoteCount}, Mapa: ${nomeMapa}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 \nContagem: ${counters.divineVoteCount} \nMapa: ${nomeMapa} \n👍: ${counters.positiveVotes} \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
       notifiedFor20Divine = true;
     }
 
-    if (tumblingWealthVoteCount > 0 && tumblingWealthVoteCount % 100 === 0) {
+    if (counters.tumblingWealthVoteCount > 0 && counters.tumblingWealthVoteCount % 100 === 0) {
       await sendNotification(
         channel,
-        `A palavra "tumbling wealth" foi detectada ${tumblingWealthVoteCount} vezes no mapa ${nomeMapa}! 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        `A palavra "tumbling wealth" foi detectada no mapa ${nomeMapa}! \n👍: ${counters.positiveVotes} \n: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
 
-    if (divineVoteCount > 0 && divineVoteCount % 100 === 0) {
+    if (counters.divineVoteCount > 0 && counters.divineVoteCount % 100 === 0) {
       await sendNotification(
         channel,
-        `Mais de ${divineVoteCount} votos para Divine Orbs detectados no mapa ${nomeMapa}! 🔥 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        `Mais de ${counters.divineVoteCount} votos para Divine Orbs detectados no mapa ${nomeMapa}! 🔥 \n👍: ${counters.positiveVotes} \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
 
-    if (tumblingWealthVoteCount >= 300 || divineVoteCount >= 300) {
+    if (counters.tumblingWealthVoteCount >= 300 || counters.divineVoteCount >= 300) {
       await sendNotification(
         channel,
-        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount == 1 ? true : false}, Divine Orbs: ${divineVoteCount} \nMapa: ${nomeMapa}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${counters.tumblingWealthVoteCount == 1 ? true : false}, Divine Orbs: ${counters.divineVoteCount} \nMapa: ${nomeMapa}, 👍: ${counters.positiveVotes}, 💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
-      resetCounters();
+      resetMapCounters(id);
     }
 
     if (divineValue >= 20 && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${tumblingWealthVoteCount} \n👍: ${positiveVotes}, \n💩: ${negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${counters.tumblingWealthVoteCount} \n👍: ${counters.positiveVotes}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2} \nMapa: Acesse o site: https://poemapdevice.com/`,
         [urlImagem]
       );
     }
@@ -129,7 +162,7 @@ async function monitorWebSocket() {
   ws.on("open", () => {
     console.log("Conectado ao WebSocket do poemapdevice.com.");
   });
-
+ 
   ws.on("message", async (message) => {
     try {
       const parsedMessage = JSON.parse(message);
