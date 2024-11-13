@@ -147,7 +147,7 @@ async function processMessage(parsedMessage) {
     if (divineValue >= 40 && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nMapa: ${nomeMapa}, \n👍: ${counters.positiveVotes}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nMapa: ${nomeMapa}, \n👍: ${divineValue}, \n💩: ${negativeValue} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
@@ -155,7 +155,7 @@ async function processMessage(parsedMessage) {
     if (chaosValue >= 40 && negativeValue <= (chaosValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex" : "% Chaos*" } \n👍: ${counters.chaosValue}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex" : "% Chaos*" } \n👍: ${chaosValue}, \n💩: ${negativeValue} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
