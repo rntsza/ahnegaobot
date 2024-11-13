@@ -147,7 +147,7 @@ async function processMessage(parsedMessage) {
     if (divineValue >= 40 && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nMapa: ${nomeMapa}, \n👍: ${counters.divineValue}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nMapa: ${nomeMapa}, \n👍: ${counters.positiveVotes}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
