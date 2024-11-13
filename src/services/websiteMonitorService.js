@@ -11,6 +11,19 @@ let positiveVotes = 0;
 let negativeVotes = 0;
 let notifiedFor20Divine = false;
 
+let lastNotificationTime = 0;
+const NOTIFICATION_INTERVAL = 5 * 60 * 1000;
+async function sendNotification(channel, content, files) {
+  const now = Date.now();
+  if (now - lastNotificationTime >= NOTIFICATION_INTERVAL) {
+    lastNotificationTime = now;
+    await channel.send({ content, files });
+  } else {
+    console.log("Notificação ignorada devido ao intervalo mínimo.");
+  }
+}
+
+
 function resetCounters() {
   divineVoteCount = 0;
   tumblingWealthVoteCount = 0;
@@ -53,10 +66,11 @@ async function processMessage(parsedMessage) {
     }
 
     if (divineVoteCount >= 20 && !notifiedFor20Divine) {
-      await channel.send({
-        content: `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 Contagem: ${divineVoteCount}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        files: [divineOrbImageUrl],
-      });
+      await sendNotification(
+        channel,
+        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 Contagem: ${divineVoteCount}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [divineOrbImageUrl]
+      );
       notifiedFor20Divine = true;
     }
 

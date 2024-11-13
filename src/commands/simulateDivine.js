@@ -1,29 +1,28 @@
 module.exports = {
   name: "simulatedivine",
-  description: "Simula votos para testar notificações de divine orbs e tumbling wealth",
-
+  description: "Simula um evento de 20 Divine Orbs para testes",
   async execute(interaction) {
-    const monitorWebSocket = require("../services/websiteMonitorService");
-    
-    const mockMessage = {
+    const { processMessage } = require("../services/websiteMonitorService");
+
+    const simulatedMessage = {
       type: 3,
       data: {
         id: 1,
-        divineValue: 124,
-        chaosValue: 11,
+        divineValue: 21,
+        chaosValue: 5,
         exaltedValue: 2,
-        negativeValue: 10,
-        note: "t23=DIVINE",
-      },
+        negativeValue: 1,
+        note: "Simulação de Divine Orbs"
+      }
     };
 
     try {
-      await monitorWebSocket.processMessage(mockMessage);
-      await interaction.reply("Simulação de votos realizada com sucesso.");
+      await processMessage(simulatedMessage);
+      await interaction.reply("Simulação de evento de Divine Orbs enviada com sucesso.");
     } catch (error) {
       Sentry.captureException(error);
-      console.error("Erro ao simular votos:", error);
-      await interaction.reply("Erro ao simular votos.");
+      console.error("Erro ao simular evento de Divine Orbs:", error);
+      await interaction.reply("Houve um erro ao simular o evento de Divine Orbs.");
     }
-  },
+  }
 };
