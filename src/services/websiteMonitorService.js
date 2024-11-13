@@ -110,14 +110,14 @@ async function processMessage(parsedMessage) {
     console.log("Contadores: ", divineVoteCount, tumblingWealthVoteCount, positiveVotes, negativeVotes);
     console.log("Notificações: ", notifiedFor20Divine, tumblingWealthVoteCount, divineVoteCount, hasHighDivineValue, hasTumblingWealth);
 
-    if (divineVoteCount >= 20 && !notifiedFor20Divine && negativeValue <= (divineValue * 0.75)) {
-      await sendNotification(
-        channel,
-        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 \nContagem: ${counters.divineVoteCount} \nMapa: ${nomeMapa} \n👍: ${counters.positiveVotes} \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
-        [urlImagem]
-      );
-      notifiedFor20Divine = true;
-    }
+    // if (divineVoteCount >= 20 && !notifiedFor20Divine && negativeValue <= (divineValue * 0.75)) {
+    //   await sendNotification(
+    //     channel,
+    //     // `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 \nContagem: ${counters.divineVoteCount} \nMapa: ${nomeMapa} \n👍: ${counters.positiveVotes} \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+    //     [urlImagem]
+    //   );
+    //   notifiedFor20Divine = true;
+    // }
 
     if (counters.tumblingWealthVoteCount > 0 && counters.tumblingWealthVoteCount % 100 === 0) {
       await sendNotification(
