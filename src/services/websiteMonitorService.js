@@ -17,7 +17,6 @@ function resetCounters() {
   positiveVotes = 0;
   negativeVotes = 0;
   notifiedFor20Divine = false;
-  console.log("Contadores resetados.");
 }
 
 setInterval(resetCounters, 60 * 60 * 1000);
@@ -35,7 +34,6 @@ async function monitorWebSocket() {
   ws.on("message", async (message) => {
     try {
       const parsedMessage = JSON.parse(message);
-      console.log("Mensagem recebida:", parsedMessage);
   
       if (parsedMessage.type === 3 && parsedMessage.data) {
         const { id, divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
