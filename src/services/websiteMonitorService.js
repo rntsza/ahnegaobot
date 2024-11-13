@@ -1,6 +1,8 @@
 const WebSocket = require("ws");
 const client = require("../config/discordClient");
 const Sentry = require("@sentry/node");
+const fs = require("fs");
+const path = require("path");
 
 const CHANNEL_TIGRINHO_ID = process.env.CHANNEL_TIGRINHO_ID;
 const ROLE_TIGRINHO_ID = process.env.ROLE_TIGRINHO_ID;
@@ -13,6 +15,12 @@ let negativeVotes = 0;
 let notifiedFor20Divine = false;
 let lastNotificationTime = 0;
 const NOTIFICATION_INTERVAL = 10 * 60 * 1000;
+
+const mapsData = JSON.parse(fs.readFileSync(path.join(__dirname, "../utils/mapsData.json")));
+
+function getMapData(mapId) {
+  return mapsData.find((map) => map.idNumerico === String(mapId)) || {};
+}
 
 async function sendNotification(channel, content, files) {
   const now = Date.now();
@@ -36,7 +44,10 @@ function resetCounters() {
 setInterval(resetCounters, 60 * 60 * 1000);
 
 async function processMessage(parsedMessage) {
-  const { divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
+  const { id, divineValue, chaosValue, exaltedValue, negativeValue, note } = parsedMessage.data;
+
+  const mapData = getMapData(id);
+  const { nomeMapa, urlImagem } = mapData;
 
   const hasTumblingWealth = note && note.includes("tumbling wealth");
   const hasHighDivineValue = divineValue && divineValue >= 20;
@@ -45,9 +56,6 @@ async function processMessage(parsedMessage) {
   const channel = client.channels.cache.get(CHANNEL_TIGRINHO_ID);
 
   if (channel) {
-    const divineOrbImageUrl = `${WEBSITE_URL}DivineOrb.png`;
-    const chaosOrbImageUrl = `${WEBSITE_URL}ChaosOrb.png`;
-
     let regex1 = "";
     let regex2 = "";
     if (note && note.includes("inhabited")) {
@@ -72,8 +80,8 @@ async function processMessage(parsedMessage) {
     if (divineVoteCount >= 20 && !notifiedFor20Divine) {
       await sendNotification(
         channel,
-        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 Contagem: ${divineVoteCount}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        [divineOrbImageUrl]
+        `🎉 <@&${ROLE_TIGRINHO_ID}> 20 Divine Orbs detectados pela primeira vez! 🔥 Contagem: ${divineVoteCount}, Mapa: ${nomeMapa}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [urlImagem]
       );
       notifiedFor20Divine = true;
     }
@@ -81,33 +89,33 @@ async function processMessage(parsedMessage) {
     if (tumblingWealthVoteCount > 0 && tumblingWealthVoteCount % 100 === 0) {
       await sendNotification(
         channel,
-        `A palavra "tumbling wealth" foi detectada ${tumblingWealthVoteCount} vezes no mapa! 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        [chaosOrbImageUrl]
+        `A palavra "tumbling wealth" foi detectada ${tumblingWealthVoteCount} vezes no mapa ${nomeMapa}! 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [urlImagem]
       );
     }
 
     if (divineVoteCount > 0 && divineVoteCount % 100 === 0) {
       await sendNotification(
         channel,
-        `Mais de ${divineVoteCount} votos para Divine Orbs detectados no mapa! 🔥 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        [divineOrbImageUrl]
+        `Mais de ${divineVoteCount} votos para Divine Orbs detectados no mapa ${nomeMapa}! 🔥 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [urlImagem]
       );
     }
 
     if (tumblingWealthVoteCount >= 300 || divineVoteCount >= 300) {
       await sendNotification(
         channel,
-        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount == 1 ? true : false}, Divine Orbs: ${divineVoteCount} 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
-        hasTumblingWealth ? [chaosOrbImageUrl] : [divineOrbImageUrl]
+        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount == 1 ? true : false}, Divine Orbs: ${divineVoteCount} \nMapa: ${nomeMapa}, 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        [urlImagem]
       );
       resetCounters();
     }
 
-    if (divineValue > negativeValue / 2) {
+    if (divineValue >= 20 && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nTumbling Wealth: ${tumblingWealthVoteCount} \n👍: ${positiveVotes}, \n💩: ${negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2} \nMapa: infelizmente ainda não terminei essa parte, acessem o site: https://poemapdevice.com/`,
-        [divineOrbImageUrl]
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${tumblingWealthVoteCount} \n👍: ${positiveVotes}, \n💩: ${negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        [urlImagem]
       );
     }
   } else {
