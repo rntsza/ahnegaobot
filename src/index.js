@@ -1,5 +1,5 @@
 require("dotenv").config();
-require("./instrument.js");
+require("../instrument.js");
 const express = require("express");
 const client = require("./config/discordClient");
 const prisma = require("./config/prismaClient");
