@@ -97,7 +97,7 @@ async function processMessage(parsedMessage) {
     if (tumblingWealthVoteCount >= 300 || divineVoteCount >= 300) {
       await sendNotification(
         channel,
-        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount}, Divine Orbs: ${divineVoteCount} 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
+        `<@&${ROLE_TIGRINHO_ID}> Atenção! O limite de 300 votos foi ultrapassado! \nTumbling Wealth: ${tumblingWealthVoteCount == 1 ? true : false}, Divine Orbs: ${divineVoteCount} 👍: ${positiveVotes}, 💩: ${negativeVotes} --- ${regex1} --- ${regex2}`,
         hasTumblingWealth ? [chaosOrbImageUrl] : [divineOrbImageUrl]
       );
       resetCounters();
