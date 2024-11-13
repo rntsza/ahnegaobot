@@ -5,6 +5,7 @@ module.exports = async (interaction) => {
   try {
     await command.execute(interaction);
   } catch (error) {
+    Sentry.captureException(error);
     console.error("Erro ao executar comando:", error);
   }
 };

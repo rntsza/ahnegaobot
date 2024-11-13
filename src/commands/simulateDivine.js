@@ -13,7 +13,7 @@ module.exports = {
         chaosValue: 11,
         exaltedValue: 2,
         negativeValue: 10,
-        note: "t3=tumbling wealth",
+        note: "t23=DIVINE",
       },
     };
 
@@ -21,6 +21,7 @@ module.exports = {
       await monitorWebSocket.processMessage(mockMessage);
       await interaction.reply("Simulação de votos realizada com sucesso.");
     } catch (error) {
+      Sentry.captureException(error);
       console.error("Erro ao simular votos:", error);
       await interaction.reply("Erro ao simular votos.");
     }

@@ -47,6 +47,7 @@ async function checkWebsite() {
 
     return { maxDivineOrbCount, hasTumblingWealth, divineOrbImageUrl };
   } catch (error) {
+    Sentry.captureException(error);
     console.error("Erro ao verificar o site:", error);
     return { maxDivineOrbCount: 0, hasTumblingWealth: false };
   }

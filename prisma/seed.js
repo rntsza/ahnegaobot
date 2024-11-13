@@ -1,5 +1,6 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
+const Sentry = require("@sentry/node");
 
 async function main() {
   const posts = [
@@ -49,6 +50,7 @@ async function main() {
 
 main()
   .catch(e => {
+    Sentry.captureException(e);
     console.error(e);
     process.exit(1);
   })

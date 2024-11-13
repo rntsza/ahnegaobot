@@ -1,4 +1,5 @@
 const monitorWebsite = require("../services/websiteMonitorService");
+const Sentry = require("@sentry/node");
 
 module.exports = {
   name: "check-site-now",
@@ -8,6 +9,7 @@ module.exports = {
       await monitorWebsite();
       await interaction.reply("Verificação do site acionada com sucesso.");
     } catch (error) {
+      Sentry.captureException(error);
       console.error("Erro ao acionar a verificação do site:", error);
       await interaction.reply("Erro ao acionar a verificação do site.");
     }

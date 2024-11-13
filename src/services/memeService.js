@@ -29,6 +29,7 @@ async function fetchMemeContent(url) {
 
     return { title, imageUrls, videoUrls };
   } catch (error) {
+    Sentry.captureException(error);
     console.error("Erro ao buscar o conteúdo do meme:", error);
     return null;
   }

@@ -1,6 +1,6 @@
 module.exports = {
   name: "forcedivine",
-  description: "Força o envio de uma mensagem de notificação das divine orbs no Discord, permitido somente ao Renato.",
+  description: "Teste de notificação das divine orbs no Discord, permitido somente ao Renato.",
 
   async execute(interaction) {
     const channel = interaction.client.channels.cache.get(process.env.ID_RENATO);
@@ -25,6 +25,7 @@ module.exports = {
 
       await interaction.reply("Notificação de divine orbs enviada com sucesso.");
     } catch (error) {
+      Sentry.captureException(error);
       console.error("Erro ao enviar notificação de divine orbs:", error);
       await interaction.reply("Ocorreu um erro ao enviar a notificação de divine orbs.");
     }

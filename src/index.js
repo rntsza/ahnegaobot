@@ -4,6 +4,7 @@ const client = require("./config/discordClient");
 const prisma = require("./config/prismaClient");
 const monitorWebsite = require("./services/websiteMonitorService");
 const CommandService = require("./services/commandService");
+const Sentry = require("@sentry/node");
 
 const app = express();
 const commandService = new CommandService(client);
@@ -26,6 +27,7 @@ app.get("/check-site-now", async (req, res) => {
     await monitorWebsite();
     res.json({ message: "Verificação do site acionada com sucesso." });
   } catch (error) {
+    Sentry.captureException(error);
     console.error("Erro ao acionar a verificação do site:", error);
     res.status(500).json({ error: "Erro ao acionar a verificação do site." });
   }

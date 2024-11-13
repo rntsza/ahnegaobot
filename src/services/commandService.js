@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { REST, Routes } = require("discord.js");
+const Sentry = require("@sentry/node");
 
 class CommandService {
   constructor(client) {
@@ -43,6 +44,7 @@ class CommandService {
 
       console.log("Slash commands registrados no Discord com sucesso.");
     } catch (error) {
+      Sentry.captureException(error);
       console.error("Erro ao registrar slash commands:", error);
     }
   }
@@ -60,6 +62,7 @@ class CommandService {
     try {
       await command.execute(interaction);
     } catch (error) {
+      Sentry.captureException(error);
       console.error(`Erro ao executar o comando ${interaction.commandName}:`, error);
       await interaction.reply("Houve um erro ao executar esse comando!");
     }

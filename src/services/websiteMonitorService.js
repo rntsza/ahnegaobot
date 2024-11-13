@@ -102,6 +102,7 @@ async function monitorWebSocket() {
       }
       console.log("Mensagem WebSocket processada com sucesso.", parsedMessage);
     } catch (error) {
+      Sentry.captureException(error);
       console.error("Erro ao processar mensagem WebSocket:", error);
     }
   });
@@ -112,6 +113,7 @@ async function monitorWebSocket() {
   });
 
   ws.on("error", (error) => {
+    Sentry.captureException(error);
     console.error("Erro na conexão WebSocket:", error);
   });
 }
