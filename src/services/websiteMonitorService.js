@@ -144,13 +144,23 @@ async function processMessage(parsedMessage) {
       resetMapCounters(id);
     }
 
-    if (divineValue >= 20 && negativeValue <= (divineValue * 0.75)) {
+    if (divineValue >= 40 && negativeValue <= (divineValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${counters.tumblingWealthVoteCount} \n👍: ${counters.positiveVotes}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2} \nMapa: Acesse o site: https://poemapdevice.com/`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nDivine: ${divineValue}, \nMapa: ${nomeMapa}, \n👍: ${counters.divineValue}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
+
+    if (chaosValue >= 40 && negativeValue <= (chaosValue * 0.75)) {
+      await sendNotification(
+        channel,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex" : "% Chaos*" } \n👍: ${counters.chaosValue}, \n💩: ${counters.negativeVotes} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        [urlImagem]
+      );
+    }
+
+
   } else {
     console.error("Canal do Discord não encontrado.");
   }
