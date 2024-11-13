@@ -17,6 +17,7 @@ function resetCounters() {
   positiveVotes = 0;
   negativeVotes = 0;
   notifiedFor20Divine = false;
+  console.log("Logando contadores resetados.");
 }
 
 setInterval(resetCounters, 60 * 60 * 1000);
@@ -99,6 +100,7 @@ async function monitorWebSocket() {
       if (parsedMessage.type === 3 && parsedMessage.data) {
         await processMessage(parsedMessage);
       }
+      console.log("Mensagem WebSocket processada com sucesso.", parsedMessage);
     } catch (error) {
       console.error("Erro ao processar mensagem WebSocket:", error);
     }
