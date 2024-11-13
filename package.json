@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "lint": "eslint .",
     "seed": "node prisma/seed.js"
   },
@@ -18,7 +18,9 @@
     "fs": "^0.0.1-security",
     "pg": "^8.13.1",
     "prisma": "^5.22.0",
-    "rss-parser": "^3.13.0"
+    "puppeteer": "^23.7.1",
+    "rss-parser": "^3.13.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "eslint": "^9.14.0"
