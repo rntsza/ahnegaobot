@@ -12,11 +12,12 @@ module.exports = {
       .setTitle("Status do Bot")
       .addFields(
         { name: "Última verificação do feed", value: new Date().toLocaleString(), inline: true },
-        { name: "Total de postagens enviadas", value: `${totalPosts}`, inline: true }
+        { name: "Total de postagens enviadas", value: `${totalPosts}`, inline: true },
+        { name: "Hora da verificação", value: `${new Date().toLocaleTimeString()}`, inline: true }
       )
       .setFooter({ text: "Bot do Ah Negão!" })
       .setTimestamp();
 
-    await interaction.reply({ embeds: [statusEmbed] });
+    await interaction.editReply({ embeds: [statusEmbed] });
   },
 };

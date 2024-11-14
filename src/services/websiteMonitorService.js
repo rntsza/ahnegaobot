@@ -155,7 +155,7 @@ async function processMessage(parsedMessage) {
     if (chaosValue >= 40 && negativeValue <= (chaosValue * 0.75)) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex" : "% Chaos*" } \n👍: ${chaosValue}, \n💩: ${negativeValue} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nChaos: ${chaosValue}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex, se existir" : "% Chaos*" } \n👍: ${chaosValue}, \n💩: ${negativeValue} \nRegex: ${regex1} \nRegex: ${regex2}`,
         [urlImagem]
       );
     }
@@ -197,4 +197,4 @@ async function monitorWebSocket() {
   });
 }
 
-module.exports = monitorWebSocket;
+module.exports = { monitorWebSocket, processMessage };

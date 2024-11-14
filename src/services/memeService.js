@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-
+const Sentry = require("@sentry/node");
 const BLOCK_GIF_FILENAME = "ajax-loader.gif";
 
 async function fetchMemeContent(url) {

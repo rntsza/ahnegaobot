@@ -1,11 +1,13 @@
+const Sentry = require("@sentry/node");
+
 module.exports = {
   name: "simulatechaos",
   description: "Simula votos para testar notificações de divine orbs e tumbling wealth",
 
   async execute(interaction) {
-    const monitorWebSocket = require("../services/websiteMonitorService");
+    const { processMessage } = require("../services/websiteMonitorService");
     
-    const mockMessage = {
+    const simulatedMessage = {
       type: 3,
       data: {
         id: 1,
@@ -15,15 +17,17 @@ module.exports = {
         negativeValue: 1,
         note: "t3=tumbling wealth",
       },
+      date: new Date().toISOString()
     };
 
     try {
-      await monitorWebSocket.processMessage(mockMessage);
+      await interaction.deferReply();
+      await processMessage(simulatedMessage);
       await interaction.reply("Simulação de votos realizada com sucesso.");
     } catch (error) {
       Sentry.captureException(error);
       console.error("Erro ao simular votos:", error);
-      await interaction.reply("Erro ao simular votos.");
+      await interaction.followUp("Erro ao simular votos.");
     }
   },
 };

@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-
+const Sentry = require("@sentry/node");
 const WEBSITE_URL = "https://poemapdevice.com/";
 
 async function checkWebsite() {

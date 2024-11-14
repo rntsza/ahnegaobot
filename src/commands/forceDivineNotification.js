@@ -1,3 +1,5 @@
+const Sentry = require("@sentry/node");
+
 module.exports = {
   name: "forcedivine",
   description: "Teste de notificação das divine orbs no Discord, permitido somente ao Renato.",
