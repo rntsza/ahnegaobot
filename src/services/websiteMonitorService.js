@@ -204,4 +204,4 @@ async function monitorWebSocket() {
   });
 }
 
-module.exports = { monitorWebSocket, processMessage };
+module.exports = monitorWebSocket;
