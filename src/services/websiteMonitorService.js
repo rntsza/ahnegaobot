@@ -163,7 +163,7 @@ async function processMessage(parsedMessage) {
     if (note && typeof note === "string" && note.length > 0) {
       await sendNotification(
         channel,
-        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nNota: ${note}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex, se existir" : "% Chaos*" } \n👍: ${chaosValue}, \n💩: ${negativeValue} \nRegex: ${regex1} \nRegex: ${regex2}`,
+        ` 🚸 <@&${ROLE_TIGRINHO_ID}> Atenção! Tigrinho rolando! \nNota: ${note}, \nMapa: ${nomeMapa}, \nTumbling Wealth: ${hasTumblingWealth ? "Tumbling Wealth ativo, olhe o regex, se existir" : "% Chaos*" } \n👍: ${chaosValue}, \n💩: ${negativeValue} \nRegex: ${ hasTumblingWealth ? regex1 : "" } \nRegex: ${ hasTumblingWealth ? regex2 : "" }`,
         [urlImagem]
       );
     }
