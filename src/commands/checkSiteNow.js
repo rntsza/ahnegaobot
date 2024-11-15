@@ -1,4 +1,4 @@
-const monitorWebsite = require("../services/websiteMonitorService");
+const monitorWebSocket = require("../services/websiteMonitorService");
 const Sentry = require("@sentry/node");
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     await interaction.deferReply();
     
     try {
-      await monitorWebsite();
+      await monitorWebSocket();
       await interaction.editReply("Verificação do site acionada com sucesso.");
     } catch (error) {
       Sentry.captureException(error);
