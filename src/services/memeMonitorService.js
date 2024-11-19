@@ -1,6 +1,6 @@
 const Parser = require("rss-parser");
 const prisma = require("../config/prismaClient");
-const fetchMemeContent = require("./fetchMemeContent");
+const fetchMemeContent = require("./memeService");
 const { EmbedBuilder } = require("discord.js");
 const Sentry = require("@sentry/node");
 
