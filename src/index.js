@@ -15,7 +15,7 @@ const commandService = new CommandService(client);
 client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
   await commandService.registerSlashCommands();
-  cron.schedule("*/10 * * * *", async () => {
+  cron.schedule("0 * * * *", async () => {
     console.log("Executando memeMonitorService...");
     await memeMonitorService(client);
   });
