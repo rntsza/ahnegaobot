@@ -44,4 +44,4 @@ app.get("/check-memes-now", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 3000, () => console.log(`Servidor web iniciado na porta ${process.env.PORT || 3000}`));
+app.listen(process.env.PORT || 10000, () => console.log(`Servidor web iniciado na porta ${process.env.PORT || 3000}`));
