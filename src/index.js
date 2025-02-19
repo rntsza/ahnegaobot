@@ -11,7 +11,7 @@ const { messageHandler } = require("./services/messageHandlerService");
 
 const app = express();
 const commandService = new CommandService(client);
-const ready = require("./events/ready");
+//const ready = require("./events/ready");
 
 client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
@@ -20,7 +20,7 @@ client.once("ready", async () => {
     console.log("Executando memeMonitorService...");
     await memeMonitorService(client);
   });
-  await ready(client);
+  //await ready(client);
 });
 
 client.on("interactionCreate", (interaction) => commandService.executeCommand(interaction));
