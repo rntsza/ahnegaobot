@@ -8,6 +8,7 @@ const Sentry = require("@sentry/node");
 const cron = require("node-cron");
 const memeMonitorService = require("./services/memeMonitorService");
 const { messageHandler } = require("./services/messageHandlerService");
+const PORT = process.env.PORT || 10000;
 console.log("1");
 const app = express();
 const commandService = new CommandService(client);
@@ -43,4 +44,4 @@ app.get("/check-memes-now", async (req, res) => {
   }
 });
 console.log("7");
-app.listen(process.env.PORT || 10000, () => console.log(`Servidor web iniciado na porta ${process.env.PORT || 3000}`));
+app.listen(PORT || 10000, () => console.log(`Servidor web iniciado na porta ${process.env.PORT || 10000}`));
