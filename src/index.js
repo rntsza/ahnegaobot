@@ -3,14 +3,15 @@ require("../instrument.js");
 const express = require("express");
 const client = require("./config/discordClient");
 const prisma = require("./config/prismaClient");
-const monitorWebsite = require("./services/websiteMonitorService");
 const CommandService = require("./services/commandService");
 const Sentry = require("@sentry/node");
 const cron = require("node-cron");
 const memeMonitorService = require("./services/memeMonitorService");
+const { messageHandler } = require("./services/messageHandlerService");
 
 const app = express();
 const commandService = new CommandService(client);
+const ready = require("./events/ready");
 
 client.once("ready", async () => {
   console.log(`Logado como ${client.user.tag}`);
@@ -19,10 +20,12 @@ client.once("ready", async () => {
     console.log("Executando memeMonitorService...");
     await memeMonitorService(client);
   });
-  await monitorWebsite();
+  await ready(client);
 });
 
 client.on("interactionCreate", (interaction) => commandService.executeCommand(interaction));
+client.on("messageCreate", messageHandler);
+
 
 client.login(process.env.DISCORD_TOKEN);
 

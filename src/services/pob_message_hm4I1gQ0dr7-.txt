@@ -1,0 +1,312 @@
+🔍 **Itens Equipados:**
+**1. RARE - New Item (Karui Maul)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Karui Maul
+  - 45% increased Stun Duration on Enemies
+  - 179% increased Physical Damage
+  - Adds 47 to 84 Physical Damage
+  - 38% increased Critical Strike Chance
+
+**2. RARE - New Item (Leviathan Greaves)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Leviathan Greaves
+  - Armour: 496
+  - ArmourBasePercentile: 1
+  - Warlord Item
+  - Hunter Item
+  - +1 to Maximum Endurance Charges
+  - You have Tailwind if you have dealt a Critical Strike Recently
+
+**3. UNIQUE - Ashes of the Stars (Onyx Amulet)**
+🔹 *Variante Selecionada:* Current
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Ashes of the Stars
+  - Onyx Amulet
+  - Catalyst: Intrinsic
+  - CatalystQuality: 20
+  - +1 to Level of all Skill Gems
+
+**4. UNIQUE - Impossible Escape (Viridian Jewel)**
+🔹 *Variante Selecionada:* Avatar of Fire
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Impossible Escape
+  - Viridian Jewel
+  - Passives in radius of Avatar of Fire can be allocated without being connected to your tree
+  - Corrupted
+
+**5. RARE - New Item (Crimson Jewel)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Crimson Jewel
+  - +15% to Melee Critical Strike Multiplier
+  - +18% to Critical Strike Multiplier with Fire Skills
+  - 7% increased maximum Life
+
+**6. UNIQUE - The Light of Meaning (Prismatic Jewel)**
+🔹 *Variante Selecionada:* Chaos Resistance
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - The Light of Meaning
+  - Prismatic Jewel
+  - Passive Skills in Radius also grant +4% to Chaos Resistance
+
+**7. UNIQUE - Elegant Hubris [76740; 3; Unwavering Stance] (Timeless Jewel)**
+🔹 *Variante Selecionada:* Caspiro (Supreme Ostentation)
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Elegant Hubris [76740; 3; Unwavering Stance]
+  - Timeless Jewel
+  - Commissioned 76740 coins to commemorate Caspiro
+  - Passives in radius are Conquered by the Eternal Empire
+  - Historic
+
+**8. RELIC - Marauder: Ancestral Commander (Prismatic Jewel)**
+🔹 *Variante Selecionada:* Toughened Skin
+🔹 *Mods:* 
+  - Rarity: RELIC
+  - Marauder: Ancestral Commander
+  - Prismatic Jewel
+  - Has Alt Variant: true
+  - Selected Alt Variant: 8
+  - Has Alt Variant Two: true
+  - Selected Alt Variant Two: 7
+  - Has Alt Variant Three: true
+  - Selected Alt Variant Three: 14
+  - Requires Class Marauder
+  - --- Toughened Skin ---
+  - Action Speed cannot be modified to below Base Value
+  - Movement Speed cannot be modified to below Base Value
+  - Armour from Equipped Body Armour is doubled
+
+**9. MAGIC - Medicinal Prismatic Tincture of the Unleashed (Crafted: true)**
+🔹 *Mods:* 
+  - Rarity: MAGIC
+  - Medicinal Prismatic Tincture of the Unleashed
+  - 18% increased effect
+  - Melee Weapon Damage Penetrates 16% Elemental Resistances
+
+**10. UNIQUE - The Interrogation (Small Cluster Jewel)**
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - The Interrogation
+  - Small Cluster Jewel
+  - Adds Secrets of Suffering
+
+**11. UNIQUE - Watcher's Eye (Prismatic Jewel)**
+🔹 *Variante Selecionada:* None
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Watcher's Eye
+  - Prismatic Jewel
+  - Has Alt Variant: true
+  - Selected Alt Variant: 57
+  - Has Alt Variant Two: true
+  - Selected Alt Variant Two: 1
+
+**12. UNIQUE - Elegant Hubris [153960; 3; Unwavering Stance] (Timeless Jewel)**
+🔹 *Variante Selecionada:* Caspiro (Supreme Ostentation)
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Elegant Hubris [153960; 3; Unwavering Stance]
+  - Timeless Jewel
+  - Commissioned 153960 coins to commemorate Caspiro
+  - Passives in radius are Conquered by the Eternal Empire
+  - Historic
+
+**13. RARE - New Item (Large Cluster Jewel)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Large Cluster Jewel
+  - Cluster Jewel Skill: affliction_mace_and_staff_damage
+  - Cluster Jewel Node Count: 8
+  - Added Small Passive Skills grant: Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments
+  - 1 Added Passive Skill is Fuel the Fight
+  - 1 Added Passive Skill is Overlord
+  - 1 Added Passive Skill is Smite the Weak
+
+**14. RARE - New Item (Medium Cluster Jewel)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Medium Cluster Jewel
+  - Cluster Jewel Skill: affliction_warcry_buff_effect
+  - Cluster Jewel Node Count: 4
+  - 1 Added Passive Skill is Lead By Example
+  - 1 Added Passive Skill is Mob Mentality
+
+**15. UNIQUE - Utula's Hunger (Majestic Plate)**
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Utula's Hunger
+  - Majestic Plate
+  - Armour: 1350
+  - ArmourBasePercentile: 1
+  - Corrupted
+
+**16. UNIQUE - Kaom's Sign (Coral Ring)**
+🔹 *Variante Selecionada:* Current
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Kaom's Sign
+  - Coral Ring
+  - Grants Level 10 Enduring Cry Skill
+  - +1 to Maximum Endurance Charge
+  - Corrupted
+
+**17. RARE - New Item (Giantslayer Helmet)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Giantslayer Helmet
+  - Armour: 1606
+  - ArmourBasePercentile: 1
+  - Searing Exarch Item
+  - Eater of Worlds Item
+  - 100% increased Armour
+  - +40% to Fire Resistance
+  - +48% to Cold Resistance
+  - +35% to Chaos Resistance
+
+**18. UNIQUE - Forbidden Flame (Crimson Jewel)**
+🔹 *Variante Selecionada:* (Marauder) Unrelenting
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Forbidden Flame
+  - Crimson Jewel
+  - Item Level: 83
+  - Requires Class Marauder
+  - Requires Class Marauder
+  - Allocates Unrelenting if you have the matching modifier on Forbidden Flesh
+  - Corrupted
+
+**19. UNIQUE - Forbidden Flesh (Cobalt Jewel)**
+🔹 *Variante Selecionada:* (Marauder) Unrelenting
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Forbidden Flesh
+  - Cobalt Jewel
+  - Item Level: 83
+  - Requires Class Marauder
+  - Requires Class Marauder
+  - Allocates Unrelenting if you have the matching modifier on Forbidden Flame
+  - Corrupted
+
+**20. RARE - New Item (Stygian Vise)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Stygian Vise
+  - Has 1 Abyssal Socket
+  - +39% to Lightning Resistance
+  - +35% to Chaos Resistance
+  - 40% increased Elemental Damage with Attack Skills
+
+**21. RARE - New Item (Murderous Eye Jewel)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Murderous Eye Jewel
+  - +12% to Global Critical Strike Multiplier
+  - +10% to all Elemental Resistances
+
+**22. MAGIC - Alchemist's Quicksilver Flask of the Cheetah (Crafted: true)**
+🔹 *Mods:* 
+  - Rarity: MAGIC
+  - Alchemist's Quicksilver Flask of the Cheetah
+  - 23% reduced Duration
+  - 25% increased effect
+  - 14% increased Movement Speed during Effect
+
+**23. UNIQUE - Hrimsorrow (Goathide Gloves)**
+🔹 *Variante Selecionada:* Current
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Hrimsorrow
+  - Goathide Gloves
+  - Evasion: 104
+  - EvasionBasePercentile: 1
+  - 100% of Physical Damage Converted to Cold Damage
+  - Reflects 100 Cold Damage to Melee Attackers
+  - Corrupted
+
+**24. MAGIC - Seething Divine Life Flask of Alleviation (Crafted: true)**
+🔹 *Mods:* 
+  - Rarity: MAGIC
+  - Seething Divine Life Flask of Alleviation
+  - 66% reduced Amount Recovered
+  - Instant Recovery
+  - Grants Immunity to Bleeding for 11 seconds if used while Bleeding
+  - Grants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood
+
+**25. UNIQUE - Bottled Faith (Sulphur Flask)**
+🔹 *Variante Selecionada:* Current
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Bottled Faith
+  - Sulphur Flask
+  - Creates Consecrated Ground on Use
+  - {range:0.5}(30-15)% reduced Duration
+  - Consecrated Ground created by this Flask has Tripled Radius
+
+**26. UNIQUE - Progenesis (Amethyst Flask)**
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Progenesis
+  - Amethyst Flask
+  - When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead
+
+**27. UNIQUE - Redblade Banner (Painted Tower Shield)**
+🔹 *Variante Selecionada:* Current
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Redblade Banner
+  - Painted Tower Shield
+  - Armour: 492
+  - ArmourBasePercentile: 1
+  - 20% increased Taunt Duration
+  - +5% Chance to Block
+  - Warcries have infinite Power
+
+**28. RARE - New Item (Large Cluster Jewel)**
+🔹 *Mods:* 
+  - Rarity: RARE
+  - New Item
+  - Large Cluster Jewel
+  - Cluster Jewel Skill: affliction_elemental_damage
+  - Cluster Jewel Node Count: 8
+  - 1 Added Passive Skill is Inspired Oppression
+  - 1 Added Passive Skill is Prismatic Heart
+  - 1 Added Passive Skill is Widespread Destruction
+
+**29. UNIQUE - Elegant Hubris [155000; 3.5; Eternal Youth] (Timeless Jewel)**
+🔹 *Variante Selecionada:* Caspiro (Supreme Ostentation)
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Elegant Hubris [155000; 3.5; Eternal Youth]
+  - Timeless Jewel
+  - Commissioned 155000 coins to commemorate Caspiro
+  - Passives in radius are Conquered by the Eternal Empire
+  - Historic
+
+**30. MAGIC - Chemist's Gold Flask of the Rainbow (Crafted: true)**
+🔹 *Mods:* 
+  - Rarity: MAGIC
+  - Chemist's Gold Flask of the Rainbow
+  - 28% reduced Charges per use
+  - 20% additional Elemental Resistances during Effect
+
+**31. UNIQUE - Progenesis (Amethyst Flask)**
+🔹 *Mods:* 
+  - Rarity: UNIQUE
+  - Progenesis
+  - Amethyst Flask
+  - When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead
+

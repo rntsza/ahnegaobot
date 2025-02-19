@@ -1,0 +1,3879 @@
+[
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nKarui Maul\nCrafted: true\nPrefix: {range:1}LocalIncreasedPhysicalDamagePercent8\nPrefix: {range:1}LocalAddedPhysicalDamageTwoHand9\nPrefix: None\nSuffix: {range:1}LocalCriticalStrikeChance6\nSuffix: None\nSuffix: None\nQuality: 20\nSockets: R-R-R-R-R-R\nLevelReq: 66\nImplicits: 2\n{crafted}{range:0.646}Gain (30-50)% of Weapon Physical Damage as Extra Damage of each Element\n45% increased Stun Duration on Enemies\n179% increased Physical Damage\nAdds 47 to 84 Physical Damage\n38% increased Critical Strike Chance\n{tags:unveiled_mod,attack}{crafted}Hits can't be Evaded\n{crafted}Can have up to 3 Crafted Modifiers\n{tags:unveiled_mod,damage}{crafted}{range:1}(26-30)% chance to deal Double Damage while Focused\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "3"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.646",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "8"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nLeviathan Greaves\nArmour: 496\nArmourBasePercentile: 1\nWarlord Item\nHunter Item\nCrafted: true\nPrefix: None\nPrefix: None\nPrefix: {range:0.5}MaximumEnduranceChargeInfluence1\nSuffix: None\nSuffix: {range:0.5}TailwindOnCriticalStrikeInfluence1\nSuffix: None\nQuality: 20\nSockets: R-R-R-R\nLevelReq: 84\nImplicits: 0\n+1 to Maximum Endurance Charges\nYou have Tailwind if you have dealt a Critical Strike Recently\n{tags:speed}{crafted}{range:1}(20-24)% increased Movement Speed\n{crafted}Can have up to 3 Crafted Modifiers\n{tags:elemental,fire,lightning,resistance}{crafted}{range:1}+(17-20)% to Fire and Lightning Resistances\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "8"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nAshes of the Stars\nOnyx Amulet\nCatalyst: Intrinsic\nCatalystQuality: 20\nVariant: Pre 3.23.0\nVariant: Current\nSelected Variant: 2\nLevelReq: 60\nImplicits: 2\n{crafted}Allocates Whispers of Doom\n{tags:jewellery_attribute}{range:1}+(10-16) to all Attributes\n{range:0.5}(5-10)% increased Experience Gain of Gems\n{variant:1}{range:0.5}(10-20)% increased Reservation Efficiency of Skills\n+1 to Level of all Skill Gems\n{range:1}+(20-30)% to Quality of all Skill Gems\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "2",
+      "id": "4"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "6"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nImpossible Escape\nViridian Jewel\nLeague: Sentinel\nVariant: Acrobatics\nVariant: Ancestral Bond\nVariant: Arrow Dancing\nVariant: Arsenal of Vengeance\nVariant: Avatar of Fire\nVariant: Blood Magic\nVariant: Bloodsoaked Blade\nVariant: Call to Arms\nVariant: Chaos Inoculation\nVariant: Conduit\nVariant: Crimson Dance\nVariant: Divine Shield\nVariant: Eldritch Battery\nVariant: Elemental Equilibrium\nVariant: Elemental Overload\nVariant: Eternal Youth\nVariant: Ghost Dance\nVariant: Ghost Reaver\nVariant: Glancing Blows\nVariant: Hex Master\nVariant: Imbalanced Guard\nVariant: Iron Grip\nVariant: Iron Reflexes\nVariant: Iron Will\nVariant: Lethe Shade\nVariant: Magebane\nVariant: Mind Over Matter\nVariant: Minion Instability\nVariant: Necromantic Aegis\nVariant: Pain Attunement\nVariant: Perfect Agony\nVariant: Point Blank\nVariant: Precise Technique\nVariant: Resolute Technique\nVariant: Runebinder\nVariant: Solipsism\nVariant: Supreme Ego\nVariant: The Agnostic\nVariant: The Impaler\nVariant: Unwavering Stance\nVariant: Vaal Pact\nVariant: Versatile Combatant\nVariant: Wicked Ward\nVariant: Wind Dancer\nVariant: Zealot's Oath\nVariant: Everything (QoL Test Variant)\nSelected Variant: 5\nRadius: Small\nLimited to: 1\nImplicits: 0\n{variant:1,46}Passives in radius of Acrobatics can be allocated without being connected to your tree\n{variant:2,46}Passives in radius of Ancestral Bond can be allocated without being connected to your tree\n{variant:46,3}Passives in radius of Arrow Dancing can be allocated without being connected to your tree\n{variant:46,4}Passives in radius of Arsenal of Vengeance can be allocated without being connected to your tree\n{variant:5,46}Passives in radius of Avatar of Fire can be allocated without being connected to your tree\n{variant:46,6}Passives in radius of Blood Magic can be allocated without being connected to your tree\n{variant:7,46}Passives in radius of Bloodsoaked Blade can be allocated without being connected to your tree\n{variant:46,8}Passives in radius of Call to Arms can be allocated without being connected to your tree\n{variant:46,9}Passives in radius of Chaos Inoculation can be allocated without being connected to your tree\n{variant:10,46}Passives in radius of Conduit can be allocated without being connected to your tree\n{variant:11,46}Passives in radius of Crimson Dance can be allocated without being connected to your tree\n{variant:46,12}Passives in radius of Divine Shield can be allocated without being connected to your tree\n{variant:46,13}Passives in radius of Eldritch Battery can be allocated without being connected to your tree\n{variant:14,46}Passives in radius of Elemental Equilibrium can be allocated without being connected to your tree\n{variant:15,46}Passives in radius of Elemental Overload can be allocated without being connected to your tree\n{variant:46,16}Passives in radius of Eternal Youth can be allocated without being connected to your tree\n{variant:17,46}Passives in radius of Ghost Dance can be allocated without being connected to your tree\n{variant:46,18}Passives in radius of Ghost Reaver can be allocated without being connected to your tree\n{variant:46,19}Passives in radius of Glancing Blows can be allocated without being connected to your tree\n{variant:20,46}Passives in radius of Hex Master can be allocated without being connected to your tree\n{variant:46,21}Passives in radius of Imbalanced Guard can be allocated without being connected to your tree\n{variant:22,46}Passives in radius of Iron Grip can be allocated without being connected to your tree\n{variant:23,46}Passives in radius of Iron Reflexes can be allocated without being connected to your tree\n{variant:46,24}Passives in radius of Iron Will can be allocated without being connected to your tree\n{variant:25,46}Passives in radius of Lethe Shade can be allocated without being connected to your tree\n{variant:46,26}Passives in radius of Magebane can be allocated without being connected to your tree\n{variant:46,27}Passives in radius of Mind Over Matter can be allocated without being connected to your tree\n{variant:28,46}Passives in radius of Minion Instability can be allocated without being connected to your tree\n{variant:46,29}Passives in radius of Necromantic Aegis can be allocated without being connected to your tree\n{variant:30,46}Passives in radius of Pain Attunement can be allocated without being connected to your tree\n{variant:31,46}Passives in radius of Perfect Agony can be allocated without being connected to your tree\n{variant:46,32}Passives in radius of Point Blank can be allocated without being connected to your tree\n{variant:33,46}Passives in radius of Precise Technique can be allocated without being connected to your tree\n{variant:34,46}Passives in radius of Resolute Technique can be allocated without being connected to your tree\n{variant:35,46}Passives in radius of Runebinder can be allocated without being connected to your tree\n{variant:46,36}Passives in radius of Solipsism can be allocated without being connected to your tree\n{variant:46,37}Passives in radius of Supreme Ego can be allocated without being connected to your tree\n{variant:46,38}Passives in radius of The Agnostic can be allocated without being connected to your tree\n{variant:46,39}Passives in radius of The Impaler can be allocated without being connected to your tree\n{variant:40,46}Passives in radius of Unwavering Stance can be allocated without being connected to your tree\n{variant:46,41}Passives in radius of Vaal Pact can be allocated without being connected to your tree\n{variant:46,42}Passives in radius of Versatile Combatant can be allocated without being connected to your tree\n{variant:46,43}Passives in radius of Wicked Ward can be allocated without being connected to your tree\n{variant:44,46}Passives in radius of Wind Dancer can be allocated without being connected to your tree\n{variant:45,46}Passives in radius of Zealot's Oath can be allocated without being connected to your tree\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "5",
+      "id": "15"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "14"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "15"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "16"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "17"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "18"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "19"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "20"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "21"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "22"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "23"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "24"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "25"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "26"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "27"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "28"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "29"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "30"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "31"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "32"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "33"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "34"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "35"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "36"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "37"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "38"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "39"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "40"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "41"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "42"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "43"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "44"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "45"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nCrimson Jewel\nCrafted: true\nPrefix: {range:0.988}PercentIncreasedLifeJewel\nPrefix: {range:0.976}FireCritMultiplier\nSuffix: None\nSuffix: {range:1}MeleeCritMultiplier\nLevelReq: 0\nImplicits: 0\n+15% to Melee Critical Strike Multiplier\n+18% to Critical Strike Multiplier with Fire Skills\n7% increased maximum Life\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "13"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nThe Light of Meaning\nPrismatic Jewel\nVariant: Life\nVariant: Energy Shield\nVariant: Mana\nVariant: Armour\nVariant: Evasion Rating\nVariant: Attributes\nVariant: Global Crit Chance\nVariant: Physical Damage\nVariant: Lightning Damage\nVariant: Cold Damage\nVariant: Fire Damage\nVariant: Chaos Damage\nVariant: Chaos Resistance\nSelected Variant: 13\nRadius: Large\nLimited to: 1\nImplicits: 0\n{variant:1}Passive Skills in Radius also grant +5 to Maximum Life\n{variant:2}Passive Skills in Radius also grant 3% increased Energy Shield\n{variant:3}Passive Skills in Radius also grant +5 to Maximum Mana\n{variant:4}Passive Skills in Radius also grant 7% increased Armour\n{variant:5}Passive Skills in Radius also grant 7% increased Evasion Rating\n{variant:6}Passive Skills in Radius also grant +2 to all Attributes\n{variant:7}Passive Skills in Radius also grant 5% Increased Global Critical Strike Chance\n{variant:8}Passive Skills in Radius also grant 6% increased Physical Damage\n{variant:9}Passive Skills in Radius also grant 6% increased Lightning Damage\n{variant:10}Passive Skills in Radius also grant 6% increased Cold Damage\n{variant:11}Passive Skills in Radius also grant 6% increased Fire Damage\n{variant:12}Passive Skills in Radius also grant 6% increased Chaos Damage\n{variant:13}Passive Skills in Radius also grant +4% to Chaos Resistance\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "13",
+      "id": "2"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nElegant Hubris [76740; 3; Unwavering Stance]\nTimeless Jewel\nLeague: Legion\nVariant: Cadiro (Supreme Decadence)\nVariant: Victario (Supreme Grandstanding)\nVariant: Caspiro (Supreme Ostentation)\nSelected Variant: 3\nLevelReq: 20\nRadius: Large\nLimited to: 1\nImplicits: 0\n{variant:1}Commissioned 76740 coins to commemorate Cadiro\n{variant:2}Commissioned 76740 coins to commemorate Victario\n{variant:3}Commissioned 76740 coins to commemorate Caspiro\nPassives in radius are Conquered by the Eternal Empire\nHistoric\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "18"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RELIC\nMarauder: Ancestral Commander\nPrismatic Jewel\nLeague: Legacy of Phrecia\nVariant: Spirit of Kaom\nVariant: Spirit of Kahuturoa\nVariant: Spirit of Utula\nVariant: Spirit of Kiloava\nVariant: Spirit of Rakiata\nVariant: Forest of Ancestors\nVariant: Ancestral Endurance\nVariant: Ancestral Defiance\nVariant: Toughened Skin\nVariant: Call of the Ancestors\nVariant: Deathrattle\nVariant: Ancestral Reach\nVariant: Ancestral Echo\nVariant: Born under Fire\nSelected Variant: 9\nHas Alt Variant: true\nSelected Alt Variant: 8\nHas Alt Variant Two: true\nSelected Alt Variant Two: 7\nHas Alt Variant Three: true\nSelected Alt Variant Three: 14\nRequires Class Marauder\nImplicits: 0\n{variant:1}--- Spirit of Kaom ---\n{variant:1}Trigger Level 20 Summon Spirit of Kaom Skill when a Totem dies while a Unique Enemy is in your Presence\n{variant:2}--- Spirit of Kahuturoa ---\n{variant:2}Trigger Level 20 Summon Spirit of Kahuturoa Skill when you take a Critical Strike from a Unique Enemy\n{variant:3}--- Spirit of Utula ---\n{variant:3}Trigger Level 20 Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy\n{variant:4}--- Spirit of Kiloava ---\n{variant:4}Trigger Level 20 Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy\n{variant:5}--- Spirit of Rakiata ---\n{variant:5}Trigger Level 20 Summon Spirit of Rakiata Skill on Critical Strike against a Marked Unique Enemy\n{variant:6}--- Forest of Ancestors ---\n{variant:6}+1 to maximum number of Summoned Totems\n{variant:6}20% of Damage from Hits is taken from your nearest Totem's Life before you\n{variant:7}--- Ancestral Endurance ---\n{variant:7}+3 to maximum Endurance Charges\n{variant:8}--- Ancestral Defiance ---\n{variant:8}Gain 15% of Missing Unreserved Life before being Hit by an Enemy\n{variant:9}--- Toughened Skin ---\n{variant:9}Action Speed cannot be modified to below Base Value\n{variant:9}Movement Speed cannot be modified to below Base Value\n{variant:9}Armour from Equipped Body Armour is doubled\n{variant:10}--- Call of the Ancestors ---\n{variant:10}30% reduced Warcry Speed\n{variant:10}120% increased Warcry Cooldown Recovery Rate\n{variant:11}--- Deathrattle ---\n{variant:11}Nearby corpses Explode when you Warcry, dealing 12% of their Life as Physical Damage\n{variant:11}Your Warcries open Chests\n{variant:12}--- Ancestral Reach ---\n{variant:12}Strike Skills which target additional Enemies can do so from 50% further away\n{variant:12}Non-Vaal Strike Skills target 1 additional nearby Enemy\n{variant:13}--- Ancestral Echo ---\n{variant:13}Strike Skills also target the previous location they were Used\n{variant:14}--- Born under Fire ---\n{variant:14}Nearby Enemies Convert 50% of their Physical Damage to Fire\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "9",
+      "variantAlt": "8",
+      "id": "1",
+      "variantAlt3": "14",
+      "variantAlt2": "7"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "15"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "17"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "19"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "20"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "21"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "23"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "24"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "26"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "30"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "34"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: MAGIC\nMedicinal Prismatic Tincture of the Unleashed\nCrafted: true\nPrefix: {range:0.634}TinctureEffect3\nSuffix: {range:0.803}TinctureElementalPenetration4\nQuality: 20\nLevelReq: 58\nImplicits: 1\n{tags:elemental_damage,damage,elemental,attack}{range:1}(70-100)% increased Elemental Damage with Melee Weapons\n18% increased effect\nMelee Weapon Damage Penetrates 16% Elemental Resistances\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "6"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "1",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nThe Interrogation\nSmall Cluster Jewel\nLeague: Delirium\nImplicits: 0\nAdds Secrets of Suffering\n\t\t\t\n\t\t",
+    "$": {
+      "id": "12"
+    },
+    "ModRange": {
+      "$": {
+        "range": "0.5",
+        "id": "1"
+      }
+    }
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nWatcher's Eye\nPrismatic Jewel\nVariant: None\nVariant: Anger: Fire Damage Life Leech\nVariant: Anger: Fire Penetration\nVariant: Anger: Inc Crit Strike Mult\nVariant: Anger: Inc Fire Damage\nVariant: Anger: Phys Added As Fire\nVariant: Anger: Phys Converted To Fire\nVariant: Clarity: Damage Taken From Mana Before Life\nVariant: Clarity: Damage Taken Gained As Mana\nVariant: Clarity: Mana Added As ES (Pre 3.12.0)\nVariant: Clarity: Mana Added As ES\nVariant: Clarity: Mana Recovery Rate (Pre 3.12.0)\nVariant: Clarity: Mana Recovery Rate\nVariant: Clarity: Recover Mana On Skill Use\nVariant: Clarity: Red. Mana Cost (Pre 3.8.0)\nVariant: Clarity: Red. Mana Cost Non Channelled\nVariant: Determination: Additional Armour\nVariant: Determination: Additional Block\nVariant: Determination: Phys Damage Reduction\nVariant: Determination: Red. Extra Damage From Crits\nVariant: Determination: Red. Reflected Phys Damage\nVariant: Determination: Unaffected By Vulnerability\nVariant: Discipline: Additional Spell Block\nVariant: Discipline: ES Per Hit\nVariant: Discipline: ES Recovery Rate (Pre 3.12.0)\nVariant: Discipline: ES Recovery Rate\nVariant: Discipline: ES Regen\nVariant: Discipline: Faster Start Of Recharge\nVariant: Grace: Additional Chance To Evade\nVariant: Grace: Blind Enemies When Hit\nVariant: Grace: Chance to Suppress Spells\nVariant: Grace: Inc Movement Speed\nVariant: Grace: Unaffected By Enfeeble\nVariant: Haste: Chance to Suppress Spells\nVariant: Haste: Cooldown Recovery For Movement Skills\nVariant: Haste: Debuffs Expire Faster\nVariant: Haste: Gain Onslaught On Kill\nVariant: Haste: Gain Phasing\nVariant: Haste: Unaffected By Temporal Chains\nVariant: Hatred: Added Cold Damage\nVariant: Hatred: Additional Crit Strike Chance\nVariant: Hatred: Cold Penetration\nVariant: Hatred: Inc Cold Damage\nVariant: Hatred: Phys Converted To Cold\nVariant: Malevolence: Damage Over Time Mult (Pre 3.8.0)\nVariant: Malevolence: Damage Over Time Mult\nVariant: Malevolence: Life And ES Recovery Rate (Pre 3.12.0)\nVariant: Malevolence: Life And ES Recovery Rate\nVariant: Malevolence: Unaffected By Bleeding\nVariant: Malevolence: Unaffected By Poison\nVariant: Malevolence: Your Ailments Deal Damage Faster\nVariant: Precision: Cannot Be Blinded\nVariant: Precision: Flask Charge On Crit\nVariant: Precision: Inc Attack Damage\nVariant: Precision: Inc Attack Speed\nVariant: Precision: Inc Crit Strike Mult (Pre 3.12.0)\nVariant: Precision: Inc Crit Strike Mult\nVariant: Pride: Chance For Double Damage\nVariant: Pride: Chance To Impale\nVariant: Pride: Impale Additional Hits\nVariant: Pride: Inc Phys Damage\nVariant: Pride: Intimidate On Hit\nVariant: Purity Of Elements: Chaos Resistance\nVariant: Purity Of Elements: Maximum Ele Resistances\nVariant: Purity Of Elements: Red. Reflected Ele Damage\nVariant: Purity Of Elements: Take Phys As Cold (Pre 3.25.0)\nVariant: Purity Of Elements: Take Phys As Fire (Pre 3.25.0)\nVariant: Purity Of Elements: Take Phys As Lightning (Pre 3.25.0)\nVariant: Purity Of Elements: Unaffected By Ele Weakness\nVariant: Purity Of Fire: Cold And Lightning Taken As Fire\nVariant: Purity Of Fire: Immune To Ignite\nVariant: Purity Of Fire: Take Phys As Fire (Pre 3.25.0)\nVariant: Purity Of Fire: Unaffected By Burning Ground\nVariant: Purity Of Fire: Unaffected By Flammability\nVariant: Purity Of Ice: Fire And Lightning Taken As Cold\nVariant: Purity Of Ice: Immune To Freeze\nVariant: Purity Of Ice: Take Phys As Ice (Pre 3.25.0)\nVariant: Purity Of Ice: Unaffected By Chilled Ground\nVariant: Purity Of Ice: Unaffected By Frostbite\nVariant: Purity Of Lightning: Fire And Cold Taken As Lightning\nVariant: Purity Of Lightning: Immune To Shock\nVariant: Purity Of Lightning: Take Phys As Lightning (Pre 3.25.0)\nVariant: Purity Of Lightning: Unaffected By Conductivity\nVariant: Purity Of Lightning: Unaffected By Shocked Ground\nVariant: Vitality: Damage Life Leech (Pre 3.12.0)\nVariant: Vitality: Damage Life Leech\nVariant: Vitality: Flat Life Regen (Pre 3.12.0)\nVariant: Vitality: Life Gain Per Hit\nVariant: Vitality: Life Recovery From Flasks\nVariant: Vitality: Life Recovery Rate (Pre 3.12.0)\nVariant: Vitality: Life Recovery Rate\nVariant: Vitality: Percent Life Regen\nVariant: Wrath: Inc Crit Strike Chance\nVariant: Wrath: Inc Lightning Damage\nVariant: Wrath: Lightning Damage ES Leech\nVariant: Wrath: Lightning Damage Mana Leech (Pre 3.8.0)\nVariant: Wrath: Lightning Penetration\nVariant: Wrath: Phys Added As Lightning\nVariant: Wrath: Phys Converted To Lightning\nVariant: Zealotry: Cast Speed\nVariant: Zealotry: Consecrated Ground Effect Lingers For Ms After Leaving The Area\nVariant: Zealotry: Consecrated Ground Enemy Damage Taken\nVariant: Zealotry: Crit Strike Chance Against Enemies On Consecrated Ground\nVariant: Zealotry: Crit Strikes Penetrates Ele Resistances\nVariant: Zealotry: Gain Arcane Surge For 4 Seconds When You Create Consecrated Ground\nVariant: Zealotry: Maximum ES Per Second To Maximum ES Leech Rate\nSelected Variant: 1\nHas Alt Variant: true\nSelected Alt Variant: 57\nHas Alt Variant Two: true\nSelected Alt Variant Two: 1\nLimited to: 1\nImplicits: 0\n{range:0.5}(4-6)% increased maximum Energy Shield\n{range:0.5}(4-6)% increased maximum Life\n{range:0.5}(4-6)% increased maximum Mana\n{variant:2}{range:0.5}(1-1.5)% of Fire Damage Leeched as Life while affected by Anger\n{variant:3}{range:0.5}Damage Penetrates (10-15)% Fire Resistance while affected by Anger\n{variant:4}{range:0.5}+(30-50)% to Critical Strike Multiplier while affected by Anger\n{variant:5}{range:0.5}(40-60)% increased Fire Damage while affected by Anger\n{variant:6}{range:0.5}Gain (15-25)% of Physical Damage as Extra Fire Damage while affected by Anger\n{variant:7}{range:0.5}(25-40)% of Physical Damage Converted to Fire Damage while affected by Anger\n{variant:8}{range:0.5}(6-10)% of Damage taken from Mana before Life while affected by Clarity\n{variant:9}{range:0.5}(15-20)% of Damage taken while affected by Clarity Recouped as Mana\n{variant:10}{range:0.5}Gain (12-18)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity\n{variant:11}{range:0.5}Gain (6-10)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity\n{variant:12}{range:0.5}(20-30)% increased Mana Recovery Rate while affected by Clarity\n{variant:13}{range:0.5}(10-15)% increased Mana Recovery Rate while affected by Clarity\n{variant:14}{range:0.5}(10-15)% chance to Recover 10% of Mana when you use a Skill while affected by Clarity\n{variant:15}{range:0.5}-(10-5) to Total Mana Cost of Skills while affected by Clarity\n{variant:16}{range:0.5}Non-Channelling Skills have -(10-5) to Total Mana Cost while affected by Clarity\n{variant:17}{range:0.5}+(600-1000) to Armour while affected by Determination\n{variant:18}{range:0.5}+(5-8)% Chance to Block Attack Damage while affected by Determination\n{variant:19}{range:0.5}(5-8)% additional Physical Damage Reduction while affected by Determination\n{variant:20}{range:0.5}You take (40-60)% reduced Extra Damage from Critical Strikes while affected by Determination\n{variant:21}{range:0.5}(40-50)% reduced Reflected Physical Damage taken while affected by Determination\n{variant:22}Unaffected by Vulnerability while affected by Determination\n{variant:23}{range:0.5}+(5-8)% Chance to Block Spell Damage while affected by Discipline\n{variant:24}{range:0.5}Gain (20-30) Energy Shield per Enemy Hit while affected by Discipline\n{variant:25}{range:0.5}(20-30)% increased Energy Shield Recovery Rate while affected by Discipline\n{variant:26}{range:0.5}(10-15)% increased Energy Shield Recovery Rate while affected by Discipline\n{variant:27}{range:0.5}Regenerate (1.5-2.5)% of Energy Shield per Second while affected by Discipline\n{variant:28}{range:0.5}(30-40)% faster start of Energy Shield Recharge while affected by Discipline\n{variant:29}{range:0.5}+(5-8)% chance to Evade Attack Hits while affected by Grace\n{variant:30}{range:0.5}(30-50)% chance to Blind Enemies which Hit you while affected by Grace\n{variant:31}{range:0.5}+(12-15)% chance to Suppress Spell Damage while affected by Grace\n{variant:32}{range:0.5}(10-15)% increased Movement Speed while affected by Grace\n{variant:33}Unaffected by Enfeeble while affected by Grace\n{variant:34}{range:0.5}+(5-8)% chance to Suppress Spell Damage while affected by Haste\n{variant:35}{range:0.5}(30-50)% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste\n{variant:36}Debuffs on you expire (15-20)% faster while affected by Haste\n{variant:37}You gain Onslaught for 4 seconds on Kill while affected by Haste\n{variant:38}You have Phasing while affected by Haste\n{variant:39}Unaffected by Temporal Chains while affected by Haste\n{variant:40}{range:0.5}Adds (58-70) to (88-104) Cold Damage while affected by Hatred\n{variant:41}{range:0.5}+(1.2-1.8)% to Critical Strike Chance while affected by Hatred\n{variant:42}{range:0.5}Damage Penetrates (10-15)% Cold Resistance while affected by Hatred\n{variant:43}{range:0.5}(40-60)% increased Cold Damage while affected by Hatred\n{variant:44}{range:0.5}(25-40)% of Physical Damage Converted to Cold Damage while affected by Hatred\n{variant:45}{range:0.5}+(36-44)% to Damage over Time Multiplier while affected by Malevolence\n{variant:46}{range:0.5}+(18-22)% to Damage over Time Multiplier while affected by Malevolence\n{variant:47}{range:0.5}(15-20)% increased Recovery rate of Life and Energy Shield while affected by Malevolence\n{variant:48}{range:0.5}(8-12)% increased Recovery rate of Life and Energy Shield while affected by Malevolence\n{variant:49}Unaffected by Bleeding while affected by Malevolence\n{variant:50}Unaffected by Poison while affected by Malevolence\n{variant:51}{range:0.5}Damaging Ailments you inflict deal Damage (10-15)% faster while affected by Malevolence\n{variant:52}Cannot be Blinded while affected by Precision\n{variant:53}Gain a Flask Charge when you deal a Critical Strike while affected by Precision\n{variant:54}{range:0.5}(40-60)% increased Attack Damage while affected by Precision\n{variant:55}{range:0.5}(10-15)% increased Attack Speed while affected by Precision\n{variant:56}{range:0.5}+(30-50)% to Critical Strike Multiplier while affected by Precision\n{variant:57}{range:1}+(20-30)% to Critical Strike Multiplier while affected by Precision\n{variant:58}{range:0.5}(8-12)% chance to deal Double Damage while using Pride\n{variant:59}25% chance to Impale Enemies on Hit with Attacks while using Pride\n{variant:60}Impales you inflict last 2 additional Hits while using Pride\n{variant:61}{range:0.5}(40-60)% increased Physical Damage while using Pride\n{variant:62}Your Hits Intimidate Enemies for 4 seconds while you are using Pride\n{variant:63}{range:0.5}+(30-50)% to Chaos Resistance while affected by Purity of Elements\n{variant:64}+1% to all maximum Elemental Resistances while affected by Purity of Elements\n{variant:65}{range:0.5}(40-50)% reduced Reflected Elemental Damage taken while affected by Purity of Elements\n{variant:66}{range:0.5}(8-12)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements\n{variant:67}{range:0.5}(8-12)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Elements\n{variant:68}{range:0.5}(8-12)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Elements\n{variant:69}Unaffected by Elemental Weakness while affected by Purity of Elements\n{variant:70}{range:0.5}(10-20)% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire\n{variant:71}Immune to Ignite while affected by Purity of Fire\n{variant:72}{range:0.5}(6-10)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire\n{variant:73}Unaffected by Burning Ground while affected by Purity of Fire\n{variant:74}Unaffected by Flammability while affected by Purity of Fire\n{variant:75}{range:0.5}(10-20)% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice\n{variant:76}Immune to Freeze while affected by Purity of Ice\n{variant:77}{range:0.5}(6-10)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice\n{variant:78}Unaffected by Chilled Ground while affected by Purity of Ice\n{variant:79}Unaffected by Frostbite while affected by Purity of Ice\n{variant:80}{range:0.5}(10-20)% of Fire and Cold Damage taken as Lightning Damage while\n{variant:81}Immune to Shock while affected by Purity of Lightning\n{variant:82}{range:0.5}(6-10)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning\n{variant:83}Unaffected by Conductivity while affected by Purity of Lightning\n{variant:84}Unaffected by Shocked Ground while affected by Purity of Lightning\n{variant:85}{range:0.5}(1-1.5)% of Damage leeched as Life while affected by Vitality\n{variant:86}{range:0.5}(0.8-1.2)% of Damage leeched as Life while affected by Vitality\n{variant:87}{range:0.5}Regenerate (100-140) Life per Second while affected by Vitality\n{variant:88}{range:0.5}Gain (20-30) Life per Enemy Hit while affected by Vitality\n{variant:89}{range:0.5}(50-70)% increased Life Recovery from Flasks while affected by Vitality\n{variant:90}{range:0.5}(20-30)% increased Life Recovery Rate while affected by Vitality\n{variant:91}{range:0.5}(10-15)% increased Life Recovery Rate while affected by Vitality\n{variant:92}{range:0.5}Regenerate (1-1.5)% of Life per second while affected by Vitality\n{variant:93}{range:0.5}(70-100)% increased Critical Strike Chance while affected by Wrath\n{variant:94}{range:0.5}(40-60)% increased Lightning Damage while affected by Wrath\n{variant:95}{range:0.5}(1-1.5)% of Lightning Damage is Leeched as Energy Shield while affected by Wrath\n{variant:96}{range:0.5}(1-1.5)% of Lightning Damage is Leeched as Mana while affected by Wrath\n{variant:97}{range:0.5}Damage Penetrates (10-15)% Lightning Resistance while affected by Wrath\n{variant:98}{range:0.5}Gain (15-25)% of Physical Damage as Extra Lightning Damage while affected by Wrath\n{variant:99}{range:0.5}(25-40)% of Physical Damage Converted to Lightning Damage while affected by Wrath\n{variant:100}{range:0.5}(10-15)% increased Cast Speed while affected by Zealotry\n{variant:101}Effects of Consecrated Ground you create while affected by Zealotry Linger for 2 seconds\n{variant:102}{range:0.5}Consecrated Ground you create while affected by Zealotry causes enemies to take (8-10)% increased Damage\n{variant:103}{range:0.5}(100-120)% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry\n{variant:104}{range:0.5}Critical Strikes Penetrate (8-10)% of Enemy Elemental Resistances while affected by Zealotry\n{variant:105}Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry\n{variant:106}30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "1",
+      "variantAlt": "57",
+      "id": "20",
+      "variantAlt2": "1"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "14"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "15"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "16"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "17"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "18"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "19"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "20"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "21"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "22"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "23"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "25"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "26"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "27"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "28"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "29"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "30"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "31"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "32"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "33"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "34"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "36"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "37"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "39"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "40"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "41"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "42"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "43"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "44"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "45"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "46"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "47"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "48"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "49"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "50"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "53"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "54"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "55"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "56"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "57"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "58"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "59"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "60"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "61"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "62"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "63"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "65"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "66"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "67"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "68"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "69"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "70"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "72"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "74"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "77"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "79"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "82"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "84"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "87"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "88"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "89"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "90"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "91"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "92"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "93"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "94"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "95"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "96"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "97"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "98"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "99"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "100"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "101"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "102"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "104"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "105"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "106"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "107"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "108"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nElegant Hubris [153960; 3; Unwavering Stance]\nTimeless Jewel\nLeague: Legion\nVariant: Cadiro (Supreme Decadence)\nVariant: Victario (Supreme Grandstanding)\nVariant: Caspiro (Supreme Ostentation)\nSelected Variant: 3\nLevelReq: 20\nRadius: Large\nLimited to: 1\nImplicits: 0\n{variant:1}Commissioned 153960 coins to commemorate Cadiro\n{variant:2}Commissioned 153960 coins to commemorate Victario\n{variant:3}Commissioned 153960 coins to commemorate Caspiro\nPassives in radius are Conquered by the Eternal Empire\nHistoric\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "16"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nLarge Cluster Jewel\nCrafted: true\nPrefix: {range:0.5}AfflictionNotableFueltheFight\nPrefix: {range:0.5}AfflictionNotableOverlord\nSuffix: None\nSuffix: {range:0.5}AfflictionNotableSmitetheWeak\nCluster Jewel Skill: affliction_mace_and_staff_damage\nCluster Jewel Node Count: 8\nLevelReq: 60\nImplicits: 3\n{crafted}Adds 8 Passive Skills\n{crafted}2 Added Passive Skills are Jewel Sockets\n{crafted}Added Small Passive Skills grant: Staff Attacks deal 12% increased Damage with Hits and Ailments\nAdded Small Passive Skills grant: Mace or Sceptre Attacks deal 12% increased Damage with Hits and Ailments\n1 Added Passive Skill is Fuel the Fight\n1 Added Passive Skill is Overlord\n1 Added Passive Skill is Smite the Weak\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "17"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nMedium Cluster Jewel\nCrafted: true\nPrefix: {range:0.5}AfflictionNotableLeadByExample__\nPrefix: {range:0.5}AfflictionNotableMobMentality\nSuffix: None\nSuffix: None\nCluster Jewel Skill: affliction_warcry_buff_effect\nCluster Jewel Node Count: 4\nLevelReq: 60\nImplicits: 3\n{crafted}Adds 4 Passive Skills\n{crafted}1 Added Passive Skill is a Jewel Socket\n{crafted}Added Small Passive Skills grant: Exerted Attacks deal 20% increased Damage\n1 Added Passive Skill is Lead By Example\n1 Added Passive Skill is Mob Mentality\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "19"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nUtula's Hunger\nMajestic Plate\nArmour: 1350\nArmourBasePercentile: 1\nQuality: 20\nSockets: R-R-R-R-R-R\nLevelReq: 53\nImplicits: 1\n{tags:damage,critical}You take 50% reduced Extra Damage from Critical Strikes\n{range:0.5}(60-100)% increased Armour\n{range:0.5}Recover (1-3)% of Life on Kill\n{range:0.5}(30-40)% Increased Stun and Block Recovery\n{range:0.841}+(700-1000) to maximum Life if there are no Life Modifiers on other Equipped items\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "5"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.841",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nKaom's Sign\nCoral Ring\nVariant: Pre 2.0.0\nVariant: Pre 3.19.0\nVariant: Current\nSelected Variant: 3\nImplicits: 1\n{tags:elemental,resistance}{range:0.5}+(14-16)% to all Elemental Resistances\n{variant:3}Grants Level 10 Enduring Cry Skill\n{tags:jewellery_attribute}{range:0.5}+(10-20) to Strength\n{tags:attack,life}{variant:1}0.4% of Physical Attack Damage Leeched as Life\n{tags:attack,life}{variant:2}{range:0.5}Gain (2-4) Life per Enemy Hit with Attacks\n+1 to Maximum Endurance Charge\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "9"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nGiantslayer Helmet\nArmour: 1606\nArmourBasePercentile: 1\nSearing Exarch Item\nEater of Worlds Item\nCrafted: true\nPrefix: {range:1}LocalIncreasedPhysicalDamageReductionRatingPercent7\nPrefix: None\nPrefix: None\nSuffix: {range:0.746}FireResist6\nSuffix: {range:1}ChaosResist6\nSuffix: {range:1}ColdResist8\nQuality: 20\nSockets: R-R-R-R\nLevelReq: 84\nImplicits: 2\n{exarch}{range:0.5}(19-20)% reduced Mana Cost of Attacks\n{tags:ailment}{eater}{range:0.5}While a Unique Enemy is in your Presence, (23-25)% increased Effect of Non-Damaging Ailments\n100% increased Armour\n+40% to Fire Resistance\n+48% to Cold Resistance\n+35% to Chaos Resistance\n{tags:unveiled_mod,gem}{crafted}+1 to Level of Socketed AoE Gems\n{tags:unveiled_mod,gem}{crafted}{range:0.5}(8-10)% increased Area of Effect\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "10"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nForbidden Flame\nCrimson Jewel\nItem Level: 83\nVariant: (Duelist) Impact\nVariant: (Duelist) Fatal Flourish\nVariant: (Duelist) War of Attrition\nVariant: (Duelist) Master of Metal\nVariant: (Duelist) First to Strike, Last to Fall\nVariant: (Duelist) Unstoppable Hero\nVariant: (Duelist) Bane of Legends\nVariant: (Duelist) Weapon Master\nVariant: (Duelist) Inspirational\nVariant: (Duelist) Determined Survivor\nVariant: (Duelist) Gratuitous Violence\nVariant: (Duelist) Overwhelm\nVariant: (Duelist) Masterful Form\nVariant: (Duelist) Jagged Technique\nVariant: (Duelist) Headsman\nVariant: (Duelist) Conqueror\nVariant: (Duelist) Measured Retaliation\nVariant: (Duelist) Worthy Foe\nVariant: (Duelist) Fortitude\nVariant: (Duelist) Brutal Fervour\nVariant: (Duelist) More Than Skill\nVariant: (Duelist) Endless Hunger\nVariant: (Templar) Instruments of Virtue\nVariant: (Templar) Sanctuary of Thought\nVariant: (Templar) Pursuit of Faith\nVariant: (Templar) Time of Need\nVariant: (Templar) Divine Guidance\nVariant: (Templar) Righteous Providence\nVariant: (Templar) Conviction of Power\nVariant: (Templar) Pious Path\nVariant: (Templar) Radiant Faith\nVariant: (Templar) Instruments of Zeal\nVariant: (Templar) Sign of Purpose\nVariant: (Templar) Augury of Penitence\nVariant: (Templar) Radiant Crusade\nVariant: (Templar) Searing Purity\nVariant: (Templar) Ritual of Awakening\nVariant: (Templar) Unwavering Faith\nVariant: (Templar) Arcane Blessing\nVariant: (Templar) Unwavering Crusade\nVariant: (Templar) Illuminated Devotion\nVariant: (Templar) Sanctuary\nVariant: (Templar) Bastion of Hope\nVariant: (Templar) Inevitable Judgement\nVariant: (Templar) Harmony of Purpose\nVariant: (Marauder) Sione, Sun's Roar\nVariant: (Marauder) Ramako, Sun's Light\nVariant: (Marauder) Tasalio, Cleansing Water\nVariant: (Marauder) Unrelenting\nVariant: (Marauder) Tukohama, War's Herald\nVariant: (Marauder) Unbreakable\nVariant: (Marauder) Indomitable Resolve\nVariant: (Marauder) War Bringer\nVariant: (Marauder) Undeniable\nVariant: (Marauder) Valako, Storm's Embrace\nVariant: (Marauder) Ngamahu, Flame's Advance\nVariant: (Marauder) Crave the Slaughter\nVariant: (Marauder) Unflinching\nVariant: (Marauder) Flawless Savagery\nVariant: (Marauder) Rite of Ruin\nVariant: (Marauder) Unyielding\nVariant: (Marauder) Blitz\nVariant: (Marauder) Aspect of Carnage\nVariant: (Marauder) Hinekora, Death's Fury\nVariant: (Marauder) Untiring\nVariant: (Marauder) Defy Pain\nVariant: (Marauder) Unstoppable\nVariant: (Ranger) Enduring Suffusion\nVariant: (Ranger) Oath of Winter\nVariant: (Ranger) Master Alchemist\nVariant: (Ranger) Nature's Adrenaline\nVariant: (Ranger) Fury of Nature\nVariant: (Ranger) Master Toxicist\nVariant: (Ranger) Mother's Teachings\nVariant: (Ranger) Avidity\nVariant: (Ranger) Seasoned Hunter\nVariant: (Ranger) Master Distiller\nVariant: (Ranger) Far Shot\nVariant: (Ranger) Ricochet\nVariant: (Ranger) Wind Ward\nVariant: (Ranger) Focal Point\nVariant: (Ranger) Oath of Spring\nVariant: (Ranger) Experienced Herbalist\nVariant: (Ranger) Avatar of the Wilds\nVariant: (Ranger) Oath of Summer\nVariant: (Ranger) Nature's Reprisal\nVariant: (Ranger) Lesson of the Seasons\nVariant: (Ranger) Nature's Boon\nVariant: (Ranger) Endless Munitions\nVariant: (Ranger) Occupying Force\nVariant: (Ranger) Gathering Winds\nVariant: (Ranger) Master Surgeon\nVariant: (Witch) Shaper of Winter\nVariant: (Witch) Heart of Destruction\nVariant: (Witch) Unholy Authority\nVariant: (Witch) Nine Lives\nVariant: (Witch) Mindless Aggression\nVariant: (Witch) Plaguebringer\nVariant: (Witch) Corpse Pact\nVariant: (Witch) Liege of the Primordial\nVariant: (Witch) Bastion of Elements\nVariant: (Witch) Essence Glutton\nVariant: (Witch) Shaper of Storms\nVariant: (Witch) Mistress of Sacrifice\nVariant: (Witch) Elemancer\nVariant: (Witch) Mastermind of Discord\nVariant: (Witch) Shaper of Flames\nVariant: (Witch) Unnatural Strength\nVariant: (Witch) Profane Bloom\nVariant: (Witch) Bone Barrier\nVariant: (Witch) Vile Bastion\nVariant: (Witch) Frigid Wake\nVariant: (Witch) Withering Presence\nVariant: (Witch) Commander of Darkness\nVariant: (Witch) Void Beacon\nVariant: (Witch) Forbidden Power\nVariant: (Scion) Slayer\nVariant: (Scion) Guardian\nVariant: (Scion) Warden\nVariant: (Scion) Hierophant\nVariant: (Scion) Assassin\nVariant: (Scion) Chieftain\nVariant: (Scion) Pathfinder\nVariant: (Scion) Elementalist\nVariant: (Scion) Inquisitor\nVariant: (Scion) Saboteur\nVariant: (Scion) Necromancer\nVariant: (Scion) Juggernaut\nVariant: (Scion) Champion\nVariant: (Scion) Gladiator\nVariant: (Scion) Deadeye\nVariant: (Scion) Trickster\nVariant: (Scion) Unleashed Potential\nVariant: (Scion) Occultist\nVariant: (Scion) Berserker\nVariant: (Shadow) Pyromaniac\nVariant: (Shadow) Like Clockwork\nVariant: (Shadow) Harness the Void\nVariant: (Shadow) Noxious Strike\nVariant: (Shadow) Polymath\nVariant: (Shadow) Soul Drinker\nVariant: (Shadow) Ambush and Assassinate\nVariant: (Shadow) Heartstopper\nVariant: (Shadow) Born in the Shadows\nVariant: (Shadow) Explosives Expert\nVariant: (Shadow) Chain Reaction\nVariant: (Shadow) Perfect Crime\nVariant: (Shadow) Escape Artist\nVariant: (Shadow) Swift Killer\nVariant: (Shadow) Spellbreaker\nVariant: (Shadow) Opportunistic\nVariant: (Shadow) Unstable Infusion\nVariant: (Shadow) Bomb Specialist\nVariant: (Shadow) One Step Ahead\nVariant: (Shadow) Mistwalker\nVariant: (Shadow) Toxic Delivery\nVariant: (Shadow) Deadly Infusion\nVariant: (Shadow) Demolitions Specialist\nSelected Variant: 49\nLimited to: 1\nRequires Class Marauder\nImplicits: 0\n{variant:1}Requires Class Duelist\n{variant:2}Requires Class Duelist\n{variant:3}Requires Class Duelist\n{variant:4}Requires Class Duelist\n{variant:5}Requires Class Duelist\n{variant:6}Requires Class Duelist\n{variant:7}Requires Class Duelist\n{variant:8}Requires Class Duelist\n{variant:9}Requires Class Duelist\n{variant:10}Requires Class Duelist\n{variant:11}Requires Class Duelist\n{variant:12}Requires Class Duelist\n{variant:13}Requires Class Duelist\n{variant:14}Requires Class Duelist\n{variant:15}Requires Class Duelist\n{variant:16}Requires Class Duelist\n{variant:17}Requires Class Duelist\n{variant:18}Requires Class Duelist\n{variant:19}Requires Class Duelist\n{variant:20}Requires Class Duelist\n{variant:21}Requires Class Duelist\n{variant:22}Requires Class Duelist\n{variant:23}Requires Class Templar\n{variant:24}Requires Class Templar\n{variant:25}Requires Class Templar\n{variant:26}Requires Class Templar\n{variant:27}Requires Class Templar\n{variant:28}Requires Class Templar\n{variant:29}Requires Class Templar\n{variant:30}Requires Class Templar\n{variant:31}Requires Class Templar\n{variant:32}Requires Class Templar\n{variant:33}Requires Class Templar\n{variant:34}Requires Class Templar\n{variant:35}Requires Class Templar\n{variant:36}Requires Class Templar\n{variant:37}Requires Class Templar\n{variant:38}Requires Class Templar\n{variant:39}Requires Class Templar\n{variant:40}Requires Class Templar\n{variant:41}Requires Class Templar\n{variant:42}Requires Class Templar\n{variant:43}Requires Class Templar\n{variant:44}Requires Class Templar\n{variant:45}Requires Class Templar\n{variant:46}Requires Class Marauder\n{variant:47}Requires Class Marauder\n{variant:48}Requires Class Marauder\n{variant:49}Requires Class Marauder\n{variant:50}Requires Class Marauder\n{variant:51}Requires Class Marauder\n{variant:52}Requires Class Marauder\n{variant:53}Requires Class Marauder\n{variant:54}Requires Class Marauder\n{variant:55}Requires Class Marauder\n{variant:56}Requires Class Marauder\n{variant:57}Requires Class Marauder\n{variant:58}Requires Class Marauder\n{variant:59}Requires Class Marauder\n{variant:60}Requires Class Marauder\n{variant:61}Requires Class Marauder\n{variant:62}Requires Class Marauder\n{variant:63}Requires Class Marauder\n{variant:64}Requires Class Marauder\n{variant:65}Requires Class Marauder\n{variant:66}Requires Class Marauder\n{variant:67}Requires Class Marauder\n{variant:68}Requires Class Ranger\n{variant:69}Requires Class Ranger\n{variant:70}Requires Class Ranger\n{variant:71}Requires Class Ranger\n{variant:72}Requires Class Ranger\n{variant:73}Requires Class Ranger\n{variant:74}Requires Class Ranger\n{variant:75}Requires Class Ranger\n{variant:76}Requires Class Ranger\n{variant:77}Requires Class Ranger\n{variant:78}Requires Class Ranger\n{variant:79}Requires Class Ranger\n{variant:80}Requires Class Ranger\n{variant:81}Requires Class Ranger\n{variant:82}Requires Class Ranger\n{variant:83}Requires Class Ranger\n{variant:84}Requires Class Ranger\n{variant:85}Requires Class Ranger\n{variant:86}Requires Class Ranger\n{variant:87}Requires Class Ranger\n{variant:88}Requires Class Ranger\n{variant:89}Requires Class Ranger\n{variant:90}Requires Class Ranger\n{variant:91}Requires Class Ranger\n{variant:92}Requires Class Ranger\n{variant:93}Requires Class Witch\n{variant:94}Requires Class Witch\n{variant:95}Requires Class Witch\n{variant:96}Requires Class Witch\n{variant:97}Requires Class Witch\n{variant:98}Requires Class Witch\n{variant:99}Requires Class Witch\n{variant:100}Requires Class Witch\n{variant:101}Requires Class Witch\n{variant:102}Requires Class Witch\n{variant:103}Requires Class Witch\n{variant:104}Requires Class Witch\n{variant:105}Requires Class Witch\n{variant:106}Requires Class Witch\n{variant:107}Requires Class Witch\n{variant:108}Requires Class Witch\n{variant:109}Requires Class Witch\n{variant:110}Requires Class Witch\n{variant:111}Requires Class Witch\n{variant:112}Requires Class Witch\n{variant:113}Requires Class Witch\n{variant:114}Requires Class Witch\n{variant:115}Requires Class Witch\n{variant:116}Requires Class Witch\n{variant:117}Requires Class Scion\n{variant:118}Requires Class Scion\n{variant:119}Requires Class Scion\n{variant:120}Requires Class Scion\n{variant:121}Requires Class Scion\n{variant:122}Requires Class Scion\n{variant:123}Requires Class Scion\n{variant:124}Requires Class Scion\n{variant:125}Requires Class Scion\n{variant:126}Requires Class Scion\n{variant:127}Requires Class Scion\n{variant:128}Requires Class Scion\n{variant:129}Requires Class Scion\n{variant:130}Requires Class Scion\n{variant:131}Requires Class Scion\n{variant:132}Requires Class Scion\n{variant:133}Requires Class Scion\n{variant:134}Requires Class Scion\n{variant:135}Requires Class Scion\n{variant:136}Requires Class Shadow\n{variant:137}Requires Class Shadow\n{variant:138}Requires Class Shadow\n{variant:139}Requires Class Shadow\n{variant:140}Requires Class Shadow\n{variant:141}Requires Class Shadow\n{variant:142}Requires Class Shadow\n{variant:143}Requires Class Shadow\n{variant:144}Requires Class Shadow\n{variant:145}Requires Class Shadow\n{variant:146}Requires Class Shadow\n{variant:147}Requires Class Shadow\n{variant:148}Requires Class Shadow\n{variant:149}Requires Class Shadow\n{variant:150}Requires Class Shadow\n{variant:151}Requires Class Shadow\n{variant:152}Requires Class Shadow\n{variant:153}Requires Class Shadow\n{variant:154}Requires Class Shadow\n{variant:155}Requires Class Shadow\n{variant:156}Requires Class Shadow\n{variant:157}Requires Class Shadow\n{variant:158}Requires Class Shadow\n{variant:1}Allocates Impact if you have the matching modifier on Forbidden Flesh\n{variant:2}Allocates Fatal Flourish if you have the matching modifier on Forbidden Flesh\n{variant:3}Allocates War of Attrition if you have the matching modifier on Forbidden Flesh\n{variant:4}Allocates Master of Metal if you have the matching modifier on Forbidden Flesh\n{variant:5}Allocates First to Strike, Last to Fall if you have the matching modifier on Forbidden Flesh\n{variant:6}Allocates Unstoppable Hero if you have the matching modifier on Forbidden Flesh\n{variant:7}Allocates Bane of Legends if you have the matching modifier on Forbidden Flesh\n{variant:8}Allocates Weapon Master if you have the matching modifier on Forbidden Flesh\n{variant:9}Allocates Inspirational if you have the matching modifier on Forbidden Flesh\n{variant:10}Allocates Determined Survivor if you have the matching modifier on Forbidden Flesh\n{variant:11}Allocates Gratuitous Violence if you have the matching modifier on Forbidden Flesh\n{variant:12}Allocates Overwhelm if you have the matching modifier on Forbidden Flesh\n{variant:13}Allocates Masterful Form if you have the matching modifier on Forbidden Flesh\n{variant:14}Allocates Jagged Technique if you have the matching modifier on Forbidden Flesh\n{variant:15}Allocates Headsman if you have the matching modifier on Forbidden Flesh\n{variant:16}Allocates Conqueror if you have the matching modifier on Forbidden Flesh\n{variant:17}Allocates Measured Retaliation if you have the matching modifier on Forbidden Flesh\n{variant:18}Allocates Worthy Foe if you have the matching modifier on Forbidden Flesh\n{variant:19}Allocates Fortitude if you have the matching modifier on Forbidden Flesh\n{variant:20}Allocates Brutal Fervour if you have the matching modifier on Forbidden Flesh\n{variant:21}Allocates More Than Skill if you have the matching modifier on Forbidden Flesh\n{variant:22}Allocates Endless Hunger if you have the matching modifier on Forbidden Flesh\n{variant:23}Allocates Instruments of Virtue if you have the matching modifier on Forbidden Flesh\n{variant:24}Allocates Sanctuary of Thought if you have the matching modifier on Forbidden Flesh\n{variant:25}Allocates Pursuit of Faith if you have the matching modifier on Forbidden Flesh\n{variant:26}Allocates Time of Need if you have the matching modifier on Forbidden Flesh\n{variant:27}Allocates Divine Guidance if you have the matching modifier on Forbidden Flesh\n{variant:28}Allocates Righteous Providence if you have the matching modifier on Forbidden Flesh\n{variant:29}Allocates Conviction of Power if you have the matching modifier on Forbidden Flesh\n{variant:30}Allocates Pious Path if you have the matching modifier on Forbidden Flesh\n{variant:31}Allocates Radiant Faith if you have the matching modifier on Forbidden Flesh\n{variant:32}Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flesh\n{variant:33}Allocates Sign of Purpose if you have the matching modifier on Forbidden Flesh\n{variant:34}Allocates Augury of Penitence if you have the matching modifier on Forbidden Flesh\n{variant:35}Allocates Radiant Crusade if you have the matching modifier on Forbidden Flesh\n{variant:36}Allocates Searing Purity if you have the matching modifier on Forbidden Flesh\n{variant:37}Allocates Ritual of Awakening if you have the matching modifier on Forbidden Flesh\n{variant:38}Allocates Unwavering Faith if you have the matching modifier on Forbidden Flesh\n{variant:39}Allocates Arcane Blessing if you have the matching modifier on Forbidden Flesh\n{variant:40}Allocates Unwavering Crusade if you have the matching modifier on Forbidden Flesh\n{variant:41}Allocates Illuminated Devotion if you have the matching modifier on Forbidden Flesh\n{variant:42}Allocates Sanctuary if you have the matching modifier on Forbidden Flesh\n{variant:43}Allocates Bastion of Hope if you have the matching modifier on Forbidden Flesh\n{variant:44}Allocates Inevitable Judgement if you have the matching modifier on Forbidden Flesh\n{variant:45}Allocates Harmony of Purpose if you have the matching modifier on Forbidden Flesh\n{variant:46}Allocates Sione, Sun's Roar if you have the matching modifier on Forbidden Flesh\n{variant:47}Allocates Ramako, Sun's Light if you have the matching modifier on Forbidden Flesh\n{variant:48}Allocates Tasalio, Cleansing Water if you have the matching modifier on Forbidden Flesh\n{variant:49}Allocates Unrelenting if you have the matching modifier on Forbidden Flesh\n{variant:50}Allocates Tukohama, War's Herald if you have the matching modifier on Forbidden Flesh\n{variant:51}Allocates Unbreakable if you have the matching modifier on Forbidden Flesh\n{variant:52}Allocates Indomitable Resolve if you have the matching modifier on Forbidden Flesh\n{variant:53}Allocates War Bringer if you have the matching modifier on Forbidden Flesh\n{variant:54}Allocates Undeniable if you have the matching modifier on Forbidden Flesh\n{variant:55}Allocates Valako, Storm's Embrace if you have the matching modifier on Forbidden Flesh\n{variant:56}Allocates Ngamahu, Flame's Advance if you have the matching modifier on Forbidden Flesh\n{variant:57}Allocates Crave the Slaughter if you have the matching modifier on Forbidden Flesh\n{variant:58}Allocates Unflinching if you have the matching modifier on Forbidden Flesh\n{variant:59}Allocates Flawless Savagery if you have the matching modifier on Forbidden Flesh\n{variant:60}Allocates Rite of Ruin if you have the matching modifier on Forbidden Flesh\n{variant:61}Allocates Unyielding if you have the matching modifier on Forbidden Flesh\n{variant:62}Allocates Blitz if you have the matching modifier on Forbidden Flesh\n{variant:63}Allocates Aspect of Carnage if you have the matching modifier on Forbidden Flesh\n{variant:64}Allocates Hinekora, Death's Fury if you have the matching modifier on Forbidden Flesh\n{variant:65}Allocates Untiring if you have the matching modifier on Forbidden Flesh\n{variant:66}Allocates Defy Pain if you have the matching modifier on Forbidden Flesh\n{variant:67}Allocates Unstoppable if you have the matching modifier on Forbidden Flesh\n{variant:68}Allocates Enduring Suffusion if you have the matching modifier on Forbidden Flesh\n{variant:69}Allocates Oath of Winter if you have the matching modifier on Forbidden Flesh\n{variant:70}Allocates Master Alchemist if you have the matching modifier on Forbidden Flesh\n{variant:71}Allocates Nature's Adrenaline if you have the matching modifier on Forbidden Flesh\n{variant:72}Allocates Fury of Nature if you have the matching modifier on Forbidden Flesh\n{variant:73}Allocates Master Toxicist if you have the matching modifier on Forbidden Flesh\n{variant:74}Allocates Mother's Teachings if you have the matching modifier on Forbidden Flesh\n{variant:75}Allocates Avidity if you have the matching modifier on Forbidden Flesh\n{variant:76}Allocates Seasoned Hunter if you have the matching modifier on Forbidden Flesh\n{variant:77}Allocates Master Distiller if you have the matching modifier on Forbidden Flesh\n{variant:78}Allocates Far Shot if you have the matching modifier on Forbidden Flesh\n{variant:79}Allocates Ricochet if you have the matching modifier on Forbidden Flesh\n{variant:80}Allocates Wind Ward if you have the matching modifier on Forbidden Flesh\n{variant:81}Allocates Focal Point if you have the matching modifier on Forbidden Flesh\n{variant:82}Allocates Oath of Spring if you have the matching modifier on Forbidden Flesh\n{variant:83}Allocates Experienced Herbalist if you have the matching modifier on Forbidden Flesh\n{variant:84}Allocates Avatar of the Wilds if you have the matching modifier on Forbidden Flesh\n{variant:85}Allocates Oath of Summer if you have the matching modifier on Forbidden Flesh\n{variant:86}Allocates Nature's Reprisal if you have the matching modifier on Forbidden Flesh\n{variant:87}Allocates Lesson of the Seasons if you have the matching modifier on Forbidden Flesh\n{variant:88}Allocates Nature's Boon if you have the matching modifier on Forbidden Flesh\n{variant:89}Allocates Endless Munitions if you have the matching modifier on Forbidden Flesh\n{variant:90}Allocates Occupying Force if you have the matching modifier on Forbidden Flesh\n{variant:91}Allocates Gathering Winds if you have the matching modifier on Forbidden Flesh\n{variant:92}Allocates Master Surgeon if you have the matching modifier on Forbidden Flesh\n{variant:93}Allocates Shaper of Winter if you have the matching modifier on Forbidden Flesh\n{variant:94}Allocates Heart of Destruction if you have the matching modifier on Forbidden Flesh\n{variant:95}Allocates Unholy Authority if you have the matching modifier on Forbidden Flesh\n{variant:96}Allocates Nine Lives if you have the matching modifier on Forbidden Flesh\n{variant:97}Allocates Mindless Aggression if you have the matching modifier on Forbidden Flesh\n{variant:98}Allocates Plaguebringer if you have the matching modifier on Forbidden Flesh\n{variant:99}Allocates Corpse Pact if you have the matching modifier on Forbidden Flesh\n{variant:100}Allocates Liege of the Primordial if you have the matching modifier on Forbidden Flesh\n{variant:101}Allocates Bastion of Elements if you have the matching modifier on Forbidden Flesh\n{variant:102}Allocates Essence Glutton if you have the matching modifier on Forbidden Flesh\n{variant:103}Allocates Shaper of Storms if you have the matching modifier on Forbidden Flesh\n{variant:104}Allocates Mistress of Sacrifice if you have the matching modifier on Forbidden Flesh\n{variant:105}Allocates Elemancer if you have the matching modifier on Forbidden Flesh\n{variant:106}Allocates Mastermind of Discord if you have the matching modifier on Forbidden Flesh\n{variant:107}Allocates Shaper of Flames if you have the matching modifier on Forbidden Flesh\n{variant:108}Allocates Unnatural Strength if you have the matching modifier on Forbidden Flesh\n{variant:109}Allocates Profane Bloom if you have the matching modifier on Forbidden Flesh\n{variant:110}Allocates Bone Barrier if you have the matching modifier on Forbidden Flesh\n{variant:111}Allocates Vile Bastion if you have the matching modifier on Forbidden Flesh\n{variant:112}Allocates Frigid Wake if you have the matching modifier on Forbidden Flesh\n{variant:113}Allocates Withering Presence if you have the matching modifier on Forbidden Flesh\n{variant:114}Allocates Commander of Darkness if you have the matching modifier on Forbidden Flesh\n{variant:115}Allocates Void Beacon if you have the matching modifier on Forbidden Flesh\n{variant:116}Allocates Forbidden Power if you have the matching modifier on Forbidden Flesh\n{variant:117}Allocates Slayer if you have the matching modifier on Forbidden Flesh\n{variant:118}Allocates Guardian if you have the matching modifier on Forbidden Flesh\n{variant:119}Allocates Warden if you have the matching modifier on Forbidden Flesh\n{variant:120}Allocates Hierophant if you have the matching modifier on Forbidden Flesh\n{variant:121}Allocates Assassin if you have the matching modifier on Forbidden Flesh\n{variant:122}Allocates Chieftain if you have the matching modifier on Forbidden Flesh\n{variant:123}Allocates Pathfinder if you have the matching modifier on Forbidden Flesh\n{variant:124}Allocates Elementalist if you have the matching modifier on Forbidden Flesh\n{variant:125}Allocates Inquisitor if you have the matching modifier on Forbidden Flesh\n{variant:126}Allocates Saboteur if you have the matching modifier on Forbidden Flesh\n{variant:127}Allocates Necromancer if you have the matching modifier on Forbidden Flesh\n{variant:128}Allocates Juggernaut if you have the matching modifier on Forbidden Flesh\n{variant:129}Allocates Champion if you have the matching modifier on Forbidden Flesh\n{variant:130}Allocates Gladiator if you have the matching modifier on Forbidden Flesh\n{variant:131}Allocates Deadeye if you have the matching modifier on Forbidden Flesh\n{variant:132}Allocates Trickster if you have the matching modifier on Forbidden Flesh\n{variant:133}Allocates Unleashed Potential if you have the matching modifier on Forbidden Flesh\n{variant:134}Allocates Occultist if you have the matching modifier on Forbidden Flesh\n{variant:135}Allocates Berserker if you have the matching modifier on Forbidden Flesh\n{variant:136}Allocates Pyromaniac if you have the matching modifier on Forbidden Flesh\n{variant:137}Allocates Like Clockwork if you have the matching modifier on Forbidden Flesh\n{variant:138}Allocates Harness the Void if you have the matching modifier on Forbidden Flesh\n{variant:139}Allocates Noxious Strike if you have the matching modifier on Forbidden Flesh\n{variant:140}Allocates Polymath if you have the matching modifier on Forbidden Flesh\n{variant:141}Allocates Soul Drinker if you have the matching modifier on Forbidden Flesh\n{variant:142}Allocates Ambush and Assassinate if you have the matching modifier on Forbidden Flesh\n{variant:143}Allocates Heartstopper if you have the matching modifier on Forbidden Flesh\n{variant:144}Allocates Born in the Shadows if you have the matching modifier on Forbidden Flesh\n{variant:145}Allocates Explosives Expert if you have the matching modifier on Forbidden Flesh\n{variant:146}Allocates Chain Reaction if you have the matching modifier on Forbidden Flesh\n{variant:147}Allocates Perfect Crime if you have the matching modifier on Forbidden Flesh\n{variant:148}Allocates Escape Artist if you have the matching modifier on Forbidden Flesh\n{variant:149}Allocates Swift Killer if you have the matching modifier on Forbidden Flesh\n{variant:150}Allocates Spellbreaker if you have the matching modifier on Forbidden Flesh\n{variant:151}Allocates Opportunistic if you have the matching modifier on Forbidden Flesh\n{variant:152}Allocates Unstable Infusion if you have the matching modifier on Forbidden Flesh\n{variant:153}Allocates Bomb Specialist if you have the matching modifier on Forbidden Flesh\n{variant:154}Allocates One Step Ahead if you have the matching modifier on Forbidden Flesh\n{variant:155}Allocates Mistwalker if you have the matching modifier on Forbidden Flesh\n{variant:156}Allocates Toxic Delivery if you have the matching modifier on Forbidden Flesh\n{variant:157}Allocates Deadly Infusion if you have the matching modifier on Forbidden Flesh\n{variant:158}Allocates Demolitions Specialist if you have the matching modifier on Forbidden Flesh\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "49",
+      "id": "21"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "14"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "15"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "16"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "17"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "18"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "19"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "20"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "21"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "22"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "23"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "24"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "25"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "26"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "27"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "28"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "29"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "30"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "31"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "32"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "33"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "34"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "35"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "36"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "37"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "38"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "39"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "40"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "41"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "42"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "43"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "44"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "45"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "46"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "47"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "48"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "49"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "50"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "51"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "52"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "53"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "54"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "55"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "56"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "57"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "58"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "59"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "60"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "61"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "62"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "63"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "64"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "65"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "66"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "67"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "68"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "69"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "70"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "71"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "72"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "73"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "74"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "75"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "76"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "77"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "78"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "79"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "80"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "81"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "82"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "83"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "84"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "85"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "86"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "87"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "88"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "89"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "90"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "91"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "92"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "93"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "94"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "95"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "96"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "97"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "98"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "99"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "100"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "101"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "102"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "103"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "104"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "105"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "106"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "107"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "108"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "109"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "110"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "111"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "112"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "113"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "114"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "115"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "116"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "117"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "118"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "119"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "120"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "121"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "122"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "123"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "124"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "125"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "126"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "127"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "128"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "129"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "130"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "131"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "132"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "133"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "134"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "135"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "136"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "137"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "138"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "139"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "140"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "141"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "142"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "143"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "144"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "145"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "146"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "147"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "148"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "149"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "150"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "151"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "152"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "153"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "154"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "155"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "156"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "157"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "158"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nForbidden Flesh\nCobalt Jewel\nItem Level: 83\nVariant: (Duelist) Impact\nVariant: (Duelist) Fatal Flourish\nVariant: (Duelist) War of Attrition\nVariant: (Duelist) Master of Metal\nVariant: (Duelist) First to Strike, Last to Fall\nVariant: (Duelist) Unstoppable Hero\nVariant: (Duelist) Bane of Legends\nVariant: (Duelist) Weapon Master\nVariant: (Duelist) Inspirational\nVariant: (Duelist) Determined Survivor\nVariant: (Duelist) Gratuitous Violence\nVariant: (Duelist) Overwhelm\nVariant: (Duelist) Masterful Form\nVariant: (Duelist) Jagged Technique\nVariant: (Duelist) Headsman\nVariant: (Duelist) Conqueror\nVariant: (Duelist) Measured Retaliation\nVariant: (Duelist) Worthy Foe\nVariant: (Duelist) Fortitude\nVariant: (Duelist) Brutal Fervour\nVariant: (Duelist) More Than Skill\nVariant: (Duelist) Endless Hunger\nVariant: (Templar) Instruments of Virtue\nVariant: (Templar) Sanctuary of Thought\nVariant: (Templar) Pursuit of Faith\nVariant: (Templar) Time of Need\nVariant: (Templar) Divine Guidance\nVariant: (Templar) Righteous Providence\nVariant: (Templar) Conviction of Power\nVariant: (Templar) Pious Path\nVariant: (Templar) Radiant Faith\nVariant: (Templar) Instruments of Zeal\nVariant: (Templar) Sign of Purpose\nVariant: (Templar) Augury of Penitence\nVariant: (Templar) Radiant Crusade\nVariant: (Templar) Searing Purity\nVariant: (Templar) Ritual of Awakening\nVariant: (Templar) Unwavering Faith\nVariant: (Templar) Arcane Blessing\nVariant: (Templar) Unwavering Crusade\nVariant: (Templar) Illuminated Devotion\nVariant: (Templar) Sanctuary\nVariant: (Templar) Bastion of Hope\nVariant: (Templar) Inevitable Judgement\nVariant: (Templar) Harmony of Purpose\nVariant: (Marauder) Sione, Sun's Roar\nVariant: (Marauder) Ramako, Sun's Light\nVariant: (Marauder) Tasalio, Cleansing Water\nVariant: (Marauder) Unrelenting\nVariant: (Marauder) Tukohama, War's Herald\nVariant: (Marauder) Unbreakable\nVariant: (Marauder) Indomitable Resolve\nVariant: (Marauder) War Bringer\nVariant: (Marauder) Undeniable\nVariant: (Marauder) Valako, Storm's Embrace\nVariant: (Marauder) Ngamahu, Flame's Advance\nVariant: (Marauder) Crave the Slaughter\nVariant: (Marauder) Unflinching\nVariant: (Marauder) Flawless Savagery\nVariant: (Marauder) Rite of Ruin\nVariant: (Marauder) Unyielding\nVariant: (Marauder) Blitz\nVariant: (Marauder) Aspect of Carnage\nVariant: (Marauder) Hinekora, Death's Fury\nVariant: (Marauder) Untiring\nVariant: (Marauder) Defy Pain\nVariant: (Marauder) Unstoppable\nVariant: (Ranger) Enduring Suffusion\nVariant: (Ranger) Oath of Winter\nVariant: (Ranger) Master Alchemist\nVariant: (Ranger) Nature's Adrenaline\nVariant: (Ranger) Fury of Nature\nVariant: (Ranger) Master Toxicist\nVariant: (Ranger) Mother's Teachings\nVariant: (Ranger) Avidity\nVariant: (Ranger) Seasoned Hunter\nVariant: (Ranger) Master Distiller\nVariant: (Ranger) Far Shot\nVariant: (Ranger) Ricochet\nVariant: (Ranger) Wind Ward\nVariant: (Ranger) Focal Point\nVariant: (Ranger) Oath of Spring\nVariant: (Ranger) Experienced Herbalist\nVariant: (Ranger) Avatar of the Wilds\nVariant: (Ranger) Oath of Summer\nVariant: (Ranger) Nature's Reprisal\nVariant: (Ranger) Lesson of the Seasons\nVariant: (Ranger) Nature's Boon\nVariant: (Ranger) Endless Munitions\nVariant: (Ranger) Occupying Force\nVariant: (Ranger) Gathering Winds\nVariant: (Ranger) Master Surgeon\nVariant: (Witch) Shaper of Winter\nVariant: (Witch) Heart of Destruction\nVariant: (Witch) Unholy Authority\nVariant: (Witch) Nine Lives\nVariant: (Witch) Mindless Aggression\nVariant: (Witch) Plaguebringer\nVariant: (Witch) Corpse Pact\nVariant: (Witch) Liege of the Primordial\nVariant: (Witch) Bastion of Elements\nVariant: (Witch) Essence Glutton\nVariant: (Witch) Shaper of Storms\nVariant: (Witch) Mistress of Sacrifice\nVariant: (Witch) Elemancer\nVariant: (Witch) Mastermind of Discord\nVariant: (Witch) Shaper of Flames\nVariant: (Witch) Unnatural Strength\nVariant: (Witch) Profane Bloom\nVariant: (Witch) Bone Barrier\nVariant: (Witch) Vile Bastion\nVariant: (Witch) Frigid Wake\nVariant: (Witch) Withering Presence\nVariant: (Witch) Commander of Darkness\nVariant: (Witch) Void Beacon\nVariant: (Witch) Forbidden Power\nVariant: (Scion) Slayer\nVariant: (Scion) Guardian\nVariant: (Scion) Warden\nVariant: (Scion) Hierophant\nVariant: (Scion) Assassin\nVariant: (Scion) Chieftain\nVariant: (Scion) Pathfinder\nVariant: (Scion) Elementalist\nVariant: (Scion) Inquisitor\nVariant: (Scion) Saboteur\nVariant: (Scion) Necromancer\nVariant: (Scion) Juggernaut\nVariant: (Scion) Champion\nVariant: (Scion) Gladiator\nVariant: (Scion) Deadeye\nVariant: (Scion) Trickster\nVariant: (Scion) Unleashed Potential\nVariant: (Scion) Occultist\nVariant: (Scion) Berserker\nVariant: (Shadow) Pyromaniac\nVariant: (Shadow) Like Clockwork\nVariant: (Shadow) Harness the Void\nVariant: (Shadow) Noxious Strike\nVariant: (Shadow) Polymath\nVariant: (Shadow) Soul Drinker\nVariant: (Shadow) Ambush and Assassinate\nVariant: (Shadow) Heartstopper\nVariant: (Shadow) Born in the Shadows\nVariant: (Shadow) Explosives Expert\nVariant: (Shadow) Chain Reaction\nVariant: (Shadow) Perfect Crime\nVariant: (Shadow) Escape Artist\nVariant: (Shadow) Swift Killer\nVariant: (Shadow) Spellbreaker\nVariant: (Shadow) Opportunistic\nVariant: (Shadow) Unstable Infusion\nVariant: (Shadow) Bomb Specialist\nVariant: (Shadow) One Step Ahead\nVariant: (Shadow) Mistwalker\nVariant: (Shadow) Toxic Delivery\nVariant: (Shadow) Deadly Infusion\nVariant: (Shadow) Demolitions Specialist\nSelected Variant: 49\nLimited to: 1\nRequires Class Marauder\nImplicits: 0\n{variant:1}Requires Class Duelist\n{variant:2}Requires Class Duelist\n{variant:3}Requires Class Duelist\n{variant:4}Requires Class Duelist\n{variant:5}Requires Class Duelist\n{variant:6}Requires Class Duelist\n{variant:7}Requires Class Duelist\n{variant:8}Requires Class Duelist\n{variant:9}Requires Class Duelist\n{variant:10}Requires Class Duelist\n{variant:11}Requires Class Duelist\n{variant:12}Requires Class Duelist\n{variant:13}Requires Class Duelist\n{variant:14}Requires Class Duelist\n{variant:15}Requires Class Duelist\n{variant:16}Requires Class Duelist\n{variant:17}Requires Class Duelist\n{variant:18}Requires Class Duelist\n{variant:19}Requires Class Duelist\n{variant:20}Requires Class Duelist\n{variant:21}Requires Class Duelist\n{variant:22}Requires Class Duelist\n{variant:23}Requires Class Templar\n{variant:24}Requires Class Templar\n{variant:25}Requires Class Templar\n{variant:26}Requires Class Templar\n{variant:27}Requires Class Templar\n{variant:28}Requires Class Templar\n{variant:29}Requires Class Templar\n{variant:30}Requires Class Templar\n{variant:31}Requires Class Templar\n{variant:32}Requires Class Templar\n{variant:33}Requires Class Templar\n{variant:34}Requires Class Templar\n{variant:35}Requires Class Templar\n{variant:36}Requires Class Templar\n{variant:37}Requires Class Templar\n{variant:38}Requires Class Templar\n{variant:39}Requires Class Templar\n{variant:40}Requires Class Templar\n{variant:41}Requires Class Templar\n{variant:42}Requires Class Templar\n{variant:43}Requires Class Templar\n{variant:44}Requires Class Templar\n{variant:45}Requires Class Templar\n{variant:46}Requires Class Marauder\n{variant:47}Requires Class Marauder\n{variant:48}Requires Class Marauder\n{variant:49}Requires Class Marauder\n{variant:50}Requires Class Marauder\n{variant:51}Requires Class Marauder\n{variant:52}Requires Class Marauder\n{variant:53}Requires Class Marauder\n{variant:54}Requires Class Marauder\n{variant:55}Requires Class Marauder\n{variant:56}Requires Class Marauder\n{variant:57}Requires Class Marauder\n{variant:58}Requires Class Marauder\n{variant:59}Requires Class Marauder\n{variant:60}Requires Class Marauder\n{variant:61}Requires Class Marauder\n{variant:62}Requires Class Marauder\n{variant:63}Requires Class Marauder\n{variant:64}Requires Class Marauder\n{variant:65}Requires Class Marauder\n{variant:66}Requires Class Marauder\n{variant:67}Requires Class Marauder\n{variant:68}Requires Class Ranger\n{variant:69}Requires Class Ranger\n{variant:70}Requires Class Ranger\n{variant:71}Requires Class Ranger\n{variant:72}Requires Class Ranger\n{variant:73}Requires Class Ranger\n{variant:74}Requires Class Ranger\n{variant:75}Requires Class Ranger\n{variant:76}Requires Class Ranger\n{variant:77}Requires Class Ranger\n{variant:78}Requires Class Ranger\n{variant:79}Requires Class Ranger\n{variant:80}Requires Class Ranger\n{variant:81}Requires Class Ranger\n{variant:82}Requires Class Ranger\n{variant:83}Requires Class Ranger\n{variant:84}Requires Class Ranger\n{variant:85}Requires Class Ranger\n{variant:86}Requires Class Ranger\n{variant:87}Requires Class Ranger\n{variant:88}Requires Class Ranger\n{variant:89}Requires Class Ranger\n{variant:90}Requires Class Ranger\n{variant:91}Requires Class Ranger\n{variant:92}Requires Class Ranger\n{variant:93}Requires Class Witch\n{variant:94}Requires Class Witch\n{variant:95}Requires Class Witch\n{variant:96}Requires Class Witch\n{variant:97}Requires Class Witch\n{variant:98}Requires Class Witch\n{variant:99}Requires Class Witch\n{variant:100}Requires Class Witch\n{variant:101}Requires Class Witch\n{variant:102}Requires Class Witch\n{variant:103}Requires Class Witch\n{variant:104}Requires Class Witch\n{variant:105}Requires Class Witch\n{variant:106}Requires Class Witch\n{variant:107}Requires Class Witch\n{variant:108}Requires Class Witch\n{variant:109}Requires Class Witch\n{variant:110}Requires Class Witch\n{variant:111}Requires Class Witch\n{variant:112}Requires Class Witch\n{variant:113}Requires Class Witch\n{variant:114}Requires Class Witch\n{variant:115}Requires Class Witch\n{variant:116}Requires Class Witch\n{variant:117}Requires Class Scion\n{variant:118}Requires Class Scion\n{variant:119}Requires Class Scion\n{variant:120}Requires Class Scion\n{variant:121}Requires Class Scion\n{variant:122}Requires Class Scion\n{variant:123}Requires Class Scion\n{variant:124}Requires Class Scion\n{variant:125}Requires Class Scion\n{variant:126}Requires Class Scion\n{variant:127}Requires Class Scion\n{variant:128}Requires Class Scion\n{variant:129}Requires Class Scion\n{variant:130}Requires Class Scion\n{variant:131}Requires Class Scion\n{variant:132}Requires Class Scion\n{variant:133}Requires Class Scion\n{variant:134}Requires Class Scion\n{variant:135}Requires Class Scion\n{variant:136}Requires Class Shadow\n{variant:137}Requires Class Shadow\n{variant:138}Requires Class Shadow\n{variant:139}Requires Class Shadow\n{variant:140}Requires Class Shadow\n{variant:141}Requires Class Shadow\n{variant:142}Requires Class Shadow\n{variant:143}Requires Class Shadow\n{variant:144}Requires Class Shadow\n{variant:145}Requires Class Shadow\n{variant:146}Requires Class Shadow\n{variant:147}Requires Class Shadow\n{variant:148}Requires Class Shadow\n{variant:149}Requires Class Shadow\n{variant:150}Requires Class Shadow\n{variant:151}Requires Class Shadow\n{variant:152}Requires Class Shadow\n{variant:153}Requires Class Shadow\n{variant:154}Requires Class Shadow\n{variant:155}Requires Class Shadow\n{variant:156}Requires Class Shadow\n{variant:157}Requires Class Shadow\n{variant:158}Requires Class Shadow\n{variant:1}Allocates Impact if you have the matching modifier on Forbidden Flame\n{variant:2}Allocates Fatal Flourish if you have the matching modifier on Forbidden Flame\n{variant:3}Allocates War of Attrition if you have the matching modifier on Forbidden Flame\n{variant:4}Allocates Master of Metal if you have the matching modifier on Forbidden Flame\n{variant:5}Allocates First to Strike, Last to Fall if you have the matching modifier on Forbidden Flame\n{variant:6}Allocates Unstoppable Hero if you have the matching modifier on Forbidden Flame\n{variant:7}Allocates Bane of Legends if you have the matching modifier on Forbidden Flame\n{variant:8}Allocates Weapon Master if you have the matching modifier on Forbidden Flame\n{variant:9}Allocates Inspirational if you have the matching modifier on Forbidden Flame\n{variant:10}Allocates Determined Survivor if you have the matching modifier on Forbidden Flame\n{variant:11}Allocates Gratuitous Violence if you have the matching modifier on Forbidden Flame\n{variant:12}Allocates Overwhelm if you have the matching modifier on Forbidden Flame\n{variant:13}Allocates Masterful Form if you have the matching modifier on Forbidden Flame\n{variant:14}Allocates Jagged Technique if you have the matching modifier on Forbidden Flame\n{variant:15}Allocates Headsman if you have the matching modifier on Forbidden Flame\n{variant:16}Allocates Conqueror if you have the matching modifier on Forbidden Flame\n{variant:17}Allocates Measured Retaliation if you have the matching modifier on Forbidden Flame\n{variant:18}Allocates Worthy Foe if you have the matching modifier on Forbidden Flame\n{variant:19}Allocates Fortitude if you have the matching modifier on Forbidden Flame\n{variant:20}Allocates Brutal Fervour if you have the matching modifier on Forbidden Flame\n{variant:21}Allocates More Than Skill if you have the matching modifier on Forbidden Flame\n{variant:22}Allocates Endless Hunger if you have the matching modifier on Forbidden Flame\n{variant:23}Allocates Instruments of Virtue if you have the matching modifier on Forbidden Flame\n{variant:24}Allocates Sanctuary of Thought if you have the matching modifier on Forbidden Flame\n{variant:25}Allocates Pursuit of Faith if you have the matching modifier on Forbidden Flame\n{variant:26}Allocates Time of Need if you have the matching modifier on Forbidden Flame\n{variant:27}Allocates Divine Guidance if you have the matching modifier on Forbidden Flame\n{variant:28}Allocates Righteous Providence if you have the matching modifier on Forbidden Flame\n{variant:29}Allocates Conviction of Power if you have the matching modifier on Forbidden Flame\n{variant:30}Allocates Pious Path if you have the matching modifier on Forbidden Flame\n{variant:31}Allocates Radiant Faith if you have the matching modifier on Forbidden Flame\n{variant:32}Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flame\n{variant:33}Allocates Sign of Purpose if you have the matching modifier on Forbidden Flame\n{variant:34}Allocates Augury of Penitence if you have the matching modifier on Forbidden Flame\n{variant:35}Allocates Radiant Crusade if you have the matching modifier on Forbidden Flame\n{variant:36}Allocates Searing Purity if you have the matching modifier on Forbidden Flame\n{variant:37}Allocates Ritual of Awakening if you have the matching modifier on Forbidden Flame\n{variant:38}Allocates Unwavering Faith if you have the matching modifier on Forbidden Flame\n{variant:39}Allocates Arcane Blessing if you have the matching modifier on Forbidden Flame\n{variant:40}Allocates Unwavering Crusade if you have the matching modifier on Forbidden Flame\n{variant:41}Allocates Illuminated Devotion if you have the matching modifier on Forbidden Flame\n{variant:42}Allocates Sanctuary if you have the matching modifier on Forbidden Flame\n{variant:43}Allocates Bastion of Hope if you have the matching modifier on Forbidden Flame\n{variant:44}Allocates Inevitable Judgement if you have the matching modifier on Forbidden Flame\n{variant:45}Allocates Harmony of Purpose if you have the matching modifier on Forbidden Flame\n{variant:46}Allocates Sione, Sun's Roar if you have the matching modifier on Forbidden Flame\n{variant:47}Allocates Ramako, Sun's Light if you have the matching modifier on Forbidden Flame\n{variant:48}Allocates Tasalio, Cleansing Water if you have the matching modifier on Forbidden Flame\n{variant:49}Allocates Unrelenting if you have the matching modifier on Forbidden Flame\n{variant:50}Allocates Tukohama, War's Herald if you have the matching modifier on Forbidden Flame\n{variant:51}Allocates Unbreakable if you have the matching modifier on Forbidden Flame\n{variant:52}Allocates Indomitable Resolve if you have the matching modifier on Forbidden Flame\n{variant:53}Allocates War Bringer if you have the matching modifier on Forbidden Flame\n{variant:54}Allocates Undeniable if you have the matching modifier on Forbidden Flame\n{variant:55}Allocates Valako, Storm's Embrace if you have the matching modifier on Forbidden Flame\n{variant:56}Allocates Ngamahu, Flame's Advance if you have the matching modifier on Forbidden Flame\n{variant:57}Allocates Crave the Slaughter if you have the matching modifier on Forbidden Flame\n{variant:58}Allocates Unflinching if you have the matching modifier on Forbidden Flame\n{variant:59}Allocates Flawless Savagery if you have the matching modifier on Forbidden Flame\n{variant:60}Allocates Rite of Ruin if you have the matching modifier on Forbidden Flame\n{variant:61}Allocates Unyielding if you have the matching modifier on Forbidden Flame\n{variant:62}Allocates Blitz if you have the matching modifier on Forbidden Flame\n{variant:63}Allocates Aspect of Carnage if you have the matching modifier on Forbidden Flame\n{variant:64}Allocates Hinekora, Death's Fury if you have the matching modifier on Forbidden Flame\n{variant:65}Allocates Untiring if you have the matching modifier on Forbidden Flame\n{variant:66}Allocates Defy Pain if you have the matching modifier on Forbidden Flame\n{variant:67}Allocates Unstoppable if you have the matching modifier on Forbidden Flame\n{variant:68}Allocates Enduring Suffusion if you have the matching modifier on Forbidden Flame\n{variant:69}Allocates Oath of Winter if you have the matching modifier on Forbidden Flame\n{variant:70}Allocates Master Alchemist if you have the matching modifier on Forbidden Flame\n{variant:71}Allocates Nature's Adrenaline if you have the matching modifier on Forbidden Flame\n{variant:72}Allocates Fury of Nature if you have the matching modifier on Forbidden Flame\n{variant:73}Allocates Master Toxicist if you have the matching modifier on Forbidden Flame\n{variant:74}Allocates Mother's Teachings if you have the matching modifier on Forbidden Flame\n{variant:75}Allocates Avidity if you have the matching modifier on Forbidden Flame\n{variant:76}Allocates Seasoned Hunter if you have the matching modifier on Forbidden Flame\n{variant:77}Allocates Master Distiller if you have the matching modifier on Forbidden Flame\n{variant:78}Allocates Far Shot if you have the matching modifier on Forbidden Flame\n{variant:79}Allocates Ricochet if you have the matching modifier on Forbidden Flame\n{variant:80}Allocates Wind Ward if you have the matching modifier on Forbidden Flame\n{variant:81}Allocates Focal Point if you have the matching modifier on Forbidden Flame\n{variant:82}Allocates Oath of Spring if you have the matching modifier on Forbidden Flame\n{variant:83}Allocates Experienced Herbalist if you have the matching modifier on Forbidden Flame\n{variant:84}Allocates Avatar of the Wilds if you have the matching modifier on Forbidden Flame\n{variant:85}Allocates Oath of Summer if you have the matching modifier on Forbidden Flame\n{variant:86}Allocates Nature's Reprisal if you have the matching modifier on Forbidden Flame\n{variant:87}Allocates Lesson of the Seasons if you have the matching modifier on Forbidden Flame\n{variant:88}Allocates Nature's Boon if you have the matching modifier on Forbidden Flame\n{variant:89}Allocates Endless Munitions if you have the matching modifier on Forbidden Flame\n{variant:90}Allocates Occupying Force if you have the matching modifier on Forbidden Flame\n{variant:91}Allocates Gathering Winds if you have the matching modifier on Forbidden Flame\n{variant:92}Allocates Master Surgeon if you have the matching modifier on Forbidden Flame\n{variant:93}Allocates Shaper of Winter if you have the matching modifier on Forbidden Flame\n{variant:94}Allocates Heart of Destruction if you have the matching modifier on Forbidden Flame\n{variant:95}Allocates Unholy Authority if you have the matching modifier on Forbidden Flame\n{variant:96}Allocates Nine Lives if you have the matching modifier on Forbidden Flame\n{variant:97}Allocates Mindless Aggression if you have the matching modifier on Forbidden Flame\n{variant:98}Allocates Plaguebringer if you have the matching modifier on Forbidden Flame\n{variant:99}Allocates Corpse Pact if you have the matching modifier on Forbidden Flame\n{variant:100}Allocates Liege of the Primordial if you have the matching modifier on Forbidden Flame\n{variant:101}Allocates Bastion of Elements if you have the matching modifier on Forbidden Flame\n{variant:102}Allocates Essence Glutton if you have the matching modifier on Forbidden Flame\n{variant:103}Allocates Shaper of Storms if you have the matching modifier on Forbidden Flame\n{variant:104}Allocates Mistress of Sacrifice if you have the matching modifier on Forbidden Flame\n{variant:105}Allocates Elemancer if you have the matching modifier on Forbidden Flame\n{variant:106}Allocates Mastermind of Discord if you have the matching modifier on Forbidden Flame\n{variant:107}Allocates Shaper of Flames if you have the matching modifier on Forbidden Flame\n{variant:108}Allocates Unnatural Strength if you have the matching modifier on Forbidden Flame\n{variant:109}Allocates Profane Bloom if you have the matching modifier on Forbidden Flame\n{variant:110}Allocates Bone Barrier if you have the matching modifier on Forbidden Flame\n{variant:111}Allocates Vile Bastion if you have the matching modifier on Forbidden Flame\n{variant:112}Allocates Frigid Wake if you have the matching modifier on Forbidden Flame\n{variant:113}Allocates Withering Presence if you have the matching modifier on Forbidden Flame\n{variant:114}Allocates Commander of Darkness if you have the matching modifier on Forbidden Flame\n{variant:115}Allocates Void Beacon if you have the matching modifier on Forbidden Flame\n{variant:116}Allocates Forbidden Power if you have the matching modifier on Forbidden Flame\n{variant:117}Allocates Slayer if you have the matching modifier on Forbidden Flame\n{variant:118}Allocates Guardian if you have the matching modifier on Forbidden Flame\n{variant:119}Allocates Warden if you have the matching modifier on Forbidden Flame\n{variant:120}Allocates Hierophant if you have the matching modifier on Forbidden Flame\n{variant:121}Allocates Assassin if you have the matching modifier on Forbidden Flame\n{variant:122}Allocates Chieftain if you have the matching modifier on Forbidden Flame\n{variant:123}Allocates Pathfinder if you have the matching modifier on Forbidden Flame\n{variant:124}Allocates Elementalist if you have the matching modifier on Forbidden Flame\n{variant:125}Allocates Inquisitor if you have the matching modifier on Forbidden Flame\n{variant:126}Allocates Saboteur if you have the matching modifier on Forbidden Flame\n{variant:127}Allocates Necromancer if you have the matching modifier on Forbidden Flame\n{variant:128}Allocates Juggernaut if you have the matching modifier on Forbidden Flame\n{variant:129}Allocates Champion if you have the matching modifier on Forbidden Flame\n{variant:130}Allocates Gladiator if you have the matching modifier on Forbidden Flame\n{variant:131}Allocates Deadeye if you have the matching modifier on Forbidden Flame\n{variant:132}Allocates Trickster if you have the matching modifier on Forbidden Flame\n{variant:133}Allocates Unleashed Potential if you have the matching modifier on Forbidden Flame\n{variant:134}Allocates Occultist if you have the matching modifier on Forbidden Flame\n{variant:135}Allocates Berserker if you have the matching modifier on Forbidden Flame\n{variant:136}Allocates Pyromaniac if you have the matching modifier on Forbidden Flame\n{variant:137}Allocates Like Clockwork if you have the matching modifier on Forbidden Flame\n{variant:138}Allocates Harness the Void if you have the matching modifier on Forbidden Flame\n{variant:139}Allocates Noxious Strike if you have the matching modifier on Forbidden Flame\n{variant:140}Allocates Polymath if you have the matching modifier on Forbidden Flame\n{variant:141}Allocates Soul Drinker if you have the matching modifier on Forbidden Flame\n{variant:142}Allocates Ambush and Assassinate if you have the matching modifier on Forbidden Flame\n{variant:143}Allocates Heartstopper if you have the matching modifier on Forbidden Flame\n{variant:144}Allocates Born in the Shadows if you have the matching modifier on Forbidden Flame\n{variant:145}Allocates Explosives Expert if you have the matching modifier on Forbidden Flame\n{variant:146}Allocates Chain Reaction if you have the matching modifier on Forbidden Flame\n{variant:147}Allocates Perfect Crime if you have the matching modifier on Forbidden Flame\n{variant:148}Allocates Escape Artist if you have the matching modifier on Forbidden Flame\n{variant:149}Allocates Swift Killer if you have the matching modifier on Forbidden Flame\n{variant:150}Allocates Spellbreaker if you have the matching modifier on Forbidden Flame\n{variant:151}Allocates Opportunistic if you have the matching modifier on Forbidden Flame\n{variant:152}Allocates Unstable Infusion if you have the matching modifier on Forbidden Flame\n{variant:153}Allocates Bomb Specialist if you have the matching modifier on Forbidden Flame\n{variant:154}Allocates One Step Ahead if you have the matching modifier on Forbidden Flame\n{variant:155}Allocates Mistwalker if you have the matching modifier on Forbidden Flame\n{variant:156}Allocates Toxic Delivery if you have the matching modifier on Forbidden Flame\n{variant:157}Allocates Deadly Infusion if you have the matching modifier on Forbidden Flame\n{variant:158}Allocates Demolitions Specialist if you have the matching modifier on Forbidden Flame\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "49",
+      "id": "22"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "13"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "14"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "15"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "16"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "17"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "18"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "19"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "20"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "21"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "22"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "23"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "24"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "25"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "26"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "27"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "28"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "29"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "30"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "31"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "32"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "33"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "34"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "35"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "36"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "37"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "38"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "39"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "40"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "41"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "42"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "43"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "44"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "45"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "46"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "47"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "48"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "49"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "50"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "51"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "52"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "53"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "54"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "55"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "56"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "57"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "58"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "59"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "60"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "61"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "62"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "63"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "64"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "65"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "66"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "67"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "68"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "69"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "70"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "71"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "72"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "73"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "74"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "75"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "76"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "77"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "78"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "79"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "80"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "81"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "82"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "83"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "84"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "85"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "86"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "87"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "88"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "89"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "90"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "91"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "92"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "93"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "94"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "95"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "96"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "97"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "98"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "99"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "100"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "101"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "102"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "103"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "104"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "105"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "106"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "107"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "108"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "109"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "110"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "111"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "112"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "113"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "114"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "115"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "116"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "117"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "118"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "119"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "120"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "121"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "122"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "123"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "124"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "125"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "126"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "127"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "128"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "129"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "130"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "131"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "132"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "133"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "134"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "135"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "136"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "137"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "138"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "139"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "140"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "141"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "142"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "143"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "144"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "145"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "146"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "147"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "148"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "149"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "150"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "151"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "152"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "153"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "154"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "155"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "156"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "157"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "158"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nStygian Vise\nCrafted: true\nPrefix: {range:0.542}WeaponElementalDamage5\nPrefix: None\nPrefix: None\nSuffix: {range:0.521}LightningResist6\nSuffix: None\nSuffix: {range:1}ChaosResist6\nSockets: A\nLevelReq: 64\nImplicits: 1\nHas 1 Abyssal Socket\n+39% to Lightning Resistance\n+35% to Chaos Resistance\n40% increased Elemental Damage with Attack Skills\n{tags:elemental,fire,lightning,resistance}{crafted}{range:1}+(17-20)% to Fire and Lightning Resistances\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "11"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nMurderous Eye Jewel\nCrafted: true\nPrefix: None\nPrefix: None\nSuffix: {range:1}AbyssAllResistancesJewel1\nSuffix: {range:1}AbyssCriticalStrikeMultiplierJewel1\nLevelReq: 40\nImplicits: 0\n+12% to Global Critical Strike Multiplier\n+10% to all Elemental Resistances\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "14"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: MAGIC\nAlchemist's Quicksilver Flask of the Cheetah\nCrafted: true\nPrefix: {range:0}FlaskEffectReducedDuration3\nSuffix: {range:1}FlaskBuffMovementSpeedWhileHealing3\nQuality: 20\nLevelReq: 68\nImplicits: 0\n23% reduced Duration\n25% increased effect\n14% increased Movement Speed during Effect\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "23"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nHrimsorrow\nGoathide Gloves\nEvasion: 104\nEvasionBasePercentile: 1\nVariant: Pre 2.6.0\nVariant: Pre 3.19.0\nVariant: Current\nSelected Variant: 3\nQuality: 20\nSockets: G-G-G-G\nLevelReq: 9\nImplicits: 1\n{tags:frenzy_charge}+1 to Maximum Frenzy Charges\n{range:0.5}+(20-30) to Strength\n{variant:1}50% increased Evasion Rating\n{variant:2,3}{range:0.5}+(40-50) to Evasion Rating\n{variant:1}{range:0.5}+(10-20)% to Cold Resistance\n{variant:2,3}{range:0.5}+(20-30)% to Cold Resistance\n{variant:2}{range:0.5}Adds (5-7) to (13-15) Cold Damage to Spells and Attacks\n{variant:1}25% of Physical Damage Converted to Cold Damage\n{variant:2}50% of Physical Damage Converted to Cold Damage\n{variant:3}100% of Physical Damage Converted to Cold Damage\n{variant:1,2}Reflects 10 Cold Damage to Melee Attackers\n{variant:3}Reflects 100 Cold Damage to Melee Attackers\nCorrupted\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "24"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: MAGIC\nSeething Divine Life Flask of Alleviation\nCrafted: true\nPrefix: {range:0.5}FlaskFullInstantRecovery1\nSuffix: {range:1}FlaskBleedCorruptingBloodImmunity2\nQuality: 20\nLevelReq: 60\nImplicits: 0\n66% reduced Amount Recovered\nInstant Recovery\nGrants Immunity to Bleeding for 11 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "25"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nBottled Faith\nSulphur Flask\nLeague: Synthesis\nVariant: Pre 3.15.0\nVariant: Pre 3.16.0\nVariant: Current\nSelected Variant: 3\nQuality: 20\nLevelReq: 27\nImplicits: 3\n{crafted}{range:0.5}(60-70)% increased effect\n{crafted}Gains no Charges during Effect\nCreates Consecrated Ground on Use\n{variant:1}{range:0.5}(30-50)% increased Duration\n{variant:2}{range:0.5}(20-40)% increased Duration\n{variant:3}{range:0.5}(30-15)% reduced Duration\nConsecrated Ground created by this Flask has Tripled Radius\n{variant:1}{range:0.5}+(1-2)% to Critical Strike Chance against Enemies on Consecrated Ground during Effect\n{range:1}Consecrated Ground created during Effect applies (7-10)% increased Damage taken to Enemies\n{variant:2,3}{range:1}(100-150)% increased Critical Strike Chance against Enemies on Consecrated Ground during Effect\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "26"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "7"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "1",
+          "id": "11"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nProgenesis\nAmethyst Flask\nQuality: 20\nLevelReq: 60\nImplicits: 0\n{range:0.5}(10-20)% reduced Charges per use\n{range:0.5}(-35-35)% increased Duration\nWhen Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "27"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nRedblade Banner\nPainted Tower Shield\nArmour: 492\nArmourBasePercentile: 1\nLeague: Warbands\nVariant: Pre 2.6.0\nVariant: Pre 3.0.0\nVariant: Pre 3.11.0\nVariant: Current\nSelected Variant: 4\nQuality: 20\nSockets: R-R-R\nLevelReq: 35\nImplicits: 1\n{variant:3,4}{range:0.5}+(20-30) to maximum Life\n{variant:2,3,4}{range:0.5}(80-100)% increased Armour\n{variant:1}+1 to Level of Socketed Warcry Gems\n{variant:1}{range:0.5}+(20-60) to maximum Life\n{variant:2,3,4}{range:0.5}+(50-60) to maximum Life\n20% increased Taunt Duration\n{variant:1}Gain +10 Life when you Taunt an Enemy\n{variant:1}20% increased Endurance Charge Duration\n+5% Chance to Block\n{variant:2,3,4}50% increased Warcry Cooldown Recovery Rate\n{variant:2,3}2% of Attack Damage Leeched as Life against Taunted Enemies\n{variant:4}Warcries have infinite Power\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "4",
+      "id": "28"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "8"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "9"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "10"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "11"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "12"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: RARE\nNew Item\nLarge Cluster Jewel\nCrafted: true\nPrefix: {range:0.5}AfflictionNotablePrismaticHeart__\nPrefix: {range:0.5}AfflictionNotableInspiredOppression\nSuffix: None\nSuffix: {range:0.5}AfflictionNotableWidespreadDestruction\nCluster Jewel Skill: affliction_elemental_damage\nCluster Jewel Node Count: 8\nLevelReq: 60\nImplicits: 3\n{crafted}Adds 8 Passive Skills\n{crafted}2 Added Passive Skills are Jewel Sockets\n{crafted}Added Small Passive Skills grant: 10% increased Elemental Damage\n1 Added Passive Skill is Inspired Oppression\n1 Added Passive Skill is Prismatic Heart\n1 Added Passive Skill is Widespread Destruction\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "29"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "6"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nElegant Hubris [155000; 3.5; Eternal Youth]\nTimeless Jewel\nLeague: Legion\nVariant: Cadiro (Supreme Decadence)\nVariant: Victario (Supreme Grandstanding)\nVariant: Caspiro (Supreme Ostentation)\nSelected Variant: 3\nLevelReq: 20\nRadius: Large\nLimited to: 1\nImplicits: 0\n{variant:1}Commissioned 155000 coins to commemorate Cadiro\n{variant:2}Commissioned 155000 coins to commemorate Victario\n{variant:3}Commissioned 155000 coins to commemorate Caspiro\nPassives in radius are Conquered by the Eternal Empire\nHistoric\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "variant": "3",
+      "id": "7"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "1"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "5"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: MAGIC\nChemist's Gold Flask of the Rainbow\nCrafted: true\nPrefix: {range:1}FlaskChargesUsed5\nSuffix: {range:1}FlaskBuffResistancesWhileHealing5_\nQuality: 20\nLevelReq: 65\nImplicits: 0\n28% reduced Charges per use\n20% additional Elemental Resistances during Effect\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "30"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      }
+    ]
+  },
+  {
+    "_": "\n\t\t\tRarity: UNIQUE\nProgenesis\nAmethyst Flask\nQuality: 20\nLevelReq: 60\nImplicits: 0\n{range:0.5}(10-20)% reduced Charges per use\n{range:0.5}(-35-35)% increased Duration\nWhen Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+    "$": {
+      "id": "31"
+    },
+    "ModRange": [
+      {
+        "$": {
+          "range": "0.5",
+          "id": "2"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "3"
+        }
+      },
+      {
+        "$": {
+          "range": "0.5",
+          "id": "4"
+        }
+      }
+    ]
+  }
+]
