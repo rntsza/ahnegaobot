@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
     "lint": "eslint .",
     "seed": "node prisma/seed.js"
   },
