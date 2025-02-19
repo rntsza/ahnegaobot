@@ -12,12 +12,18 @@ const parsePoB = async (message, pobbKey) => {
             headers: { "User-Agent": "Mozilla/5.0" }
         });
 
+        // const dom = new JSDOM(response.data, {
+        //     resources: "usable",
+        //     runScripts: "outside-only",
+        //     pretendToBeVisual: true
+        // });
         const dom = new JSDOM(response.data, {
             resources: "usable",
             runScripts: "outside-only",
-            pretendToBeVisual: true
+            pretendToBeVisual: true,
+            virtualConsole: new (require("jsdom")).VirtualConsole().sendTo(console, { omitJSDOMErrors: true })
         });
-
+        
         const textarea = dom.window.document.querySelector('textarea[aria-label="Path of Building buildcode"]');
 
         if (!textarea) {

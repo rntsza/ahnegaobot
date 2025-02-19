@@ -3,9 +3,7 @@ require("../instrument.js");
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 10000;
-console.log("Iniciando servidor web...");
 app.listen(PORT, () => console.log(`Servidor web iniciado na porta ${process.env.PORT}`));
-console.log("Iniciado servidor web...");
 
 const client = require("./config/discordClient");
 const prisma = require("./config/prismaClient");
