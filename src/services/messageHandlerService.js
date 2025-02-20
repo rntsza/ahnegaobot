@@ -19,6 +19,7 @@ const messageHandler = async (message) => {
 
   if (message.content == "Toucan" || message.content == "toucan") {
     message.channel.send(`
+͏͏͏͏
 
       ░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░
       ░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░
