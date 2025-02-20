@@ -5,6 +5,12 @@ const { JSDOM } = require("jsdom");
 const itemCache = new Map();
 
 const parsePoB = async (message, pobbKey) => {
+    const allowedChannelId = process.env.POB_CHANNEL_ID;
+    if (message.channel.id !== allowedChannelId) {
+        await message.reply(`<a:Chatting:1312872119733977178> Avaliação em breve (Soon™)`);
+        return;
+    }
+
     try {
         console.log(`🔍 Extraindo informações do PoB: ${pobbKey}`);
         const url = `https://pobb.in/${pobbKey}`;
