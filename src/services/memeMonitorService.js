@@ -46,6 +46,9 @@ async function memeMonitorService(client) {
         await prisma.postedMeme.create({
           data: { guid: uniqueId, link: entry.link, postedAt: new Date() },
         });
+        await dbService.savePostedMeme.create({
+          data: { guid: uniqueId, link: entry.link, postedAt: new Date() },
+        });
       }
     }
   } catch (error) {
