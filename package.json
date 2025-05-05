@@ -9,7 +9,7 @@
     "seed": "node prisma/seed.js"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.38.4",
+    "@dotenvx/dotenvx": "^1.43.0",
     "@prisma/client": "^6.4.1",
     "@sentry/node": "^9.5.0",
     "@sentry/profiling-node": "^9.5.0",
