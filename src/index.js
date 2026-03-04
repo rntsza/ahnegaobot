@@ -3,7 +3,8 @@ require("../instrument.js");
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(`Servidor web iniciado na porta ${process.env.PORT}`));
+const HOST = "0.0.0.0";
+app.listen(PORT, HOST, () => console.log(`Servidor web iniciado em ${HOST}:${PORT}`));
 
 const client = require("./config/discordClient");
 const prisma = require("./config/prismaClient");
@@ -28,10 +29,27 @@ client.once("ready", async () => {
 client.on("interactionCreate", (interaction) => commandService.executeCommand(interaction));
 client.on("messageCreate", messageHandler);
 
-client.login(process.env.DISCORD_TOKEN);
+if (process.env.DISCORD_TOKEN) {
+  client.login(process.env.DISCORD_TOKEN);
+} else {
+  console.warn("DISCORD_TOKEN não definido. Bot Discord não será conectado.");
+}
 
 app.get("/", (req, res) => res.send("Bot do Discord está ativo e funcionando!"));
-app.get("/status", async (req, res) => res.json({ status: "Bot está ativo", totalPosts: await prisma.postedMeme.count() }));
+app.get("/healthz", (req, res) => res.status(200).json({ ok: true }));
+app.get("/status", async (req, res) => {
+  try {
+    const totalPosts = await prisma.postedMeme.count();
+    res.json({ status: "Bot está ativo", totalPosts });
+  } catch (error) {
+    Sentry.captureException(error);
+    res.status(200).json({
+      status: "Bot está ativo (DB indisponível)",
+      totalPosts: null,
+      dbHealthy: false,
+    });
+  }
+});
 app.get("/posted-memes", async (req, res) => res.json(await prisma.postedMeme.findMany()));
 
 app.get("/check-memes-now", async (req, res) => {
