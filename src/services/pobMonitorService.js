@@ -7,7 +7,7 @@ const itemCache = new Map();
 const parsePoB = async (message, pobbKey) => {
     const allowedChannelId = process.env.POB_CHANNEL_ID;
     if (message.channel.id !== allowedChannelId) {
-        await message.reply(`<a:Chatting:1312872119733977178> Avaliação em breve (Soon™)`);
+        await message.reply(`<a:frogetype:1478765687379066953> Avaliação em breve (Soon™)`);
         return;
     }
 
