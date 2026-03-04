@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const { REST, Routes } = require("discord.js");
 const Sentry = require("@sentry/node");
 
 class CommandService {
@@ -32,16 +31,14 @@ class CommandService {
       description: command.description,
     }));
 
-    const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
-    
     try {
-      console.log("Registrando slash commands no Discord...");
+      if (!this.client.application) {
+        console.warn("Discord client application instance not available; skipping slash command registration.");
+        return;
+      }
 
-      await rest.put(
-        Routes.applicationCommands(process.env.CLIENT_ID),
-        { body: commandsData }
-      );
-
+      console.log("Registrando slash commands no Discord via client.application.commands.set...");
+      await this.client.application.commands.set(commandsData);
       console.log("Slash commands registrados no Discord com sucesso.");
     } catch (error) {
       Sentry.captureException(error);
